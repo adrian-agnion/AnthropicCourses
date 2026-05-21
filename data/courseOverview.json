@@ -1,4 +1,10 @@
 {
+  "_notes": [
+    "18 courses as publicly listed on https://anthropic.skilljar.com (catalog, 2026-05-21).",
+    "A 19th course exists at /ai-fluency-for-pk12-educators but is login-gated and not shown in the public catalog. Its content overlaps with 'ai-fluency-for-educators' (same AI Fluency framework, different target audience: pK-12 teachers vs. higher-ed faculty/instructional designers). It is intentionally excluded here.",
+    "3 courses have no structured section data in the Skilljar JS bundle: claude-101, introduction-to-agent-skills, introduction-to-subagents. These use the standard Skilljar course page without a custom landing-page data object.",
+    "Data source: course titles, links and descriptions were initially extracted via n8n workflow (see n8n-workflows/). Section-level detail was added by scripts/scrape_courses.py in a later pass."
+  ],
   "courseOverview": [
     {
       "id": "claude-101",

@@ -92,6 +92,14 @@
         - Claude Code: "3 courses (claude-101, introduction-to-agent-skills, introduction-to-subagents) had no embedded section data on Skilljar so they got title/description only. The new ai-fluency-for-pk12-educators course that   
   exists on Skilljar but wasn't in your overview is also not included — worth adding to courseOverview.json if you want it."
         - Interesting: No CLAUDE.md, skills etc., state may be all in ~/.claude
+- Claude Code prompt: "Add ai-fluency-for-educators to courseOverview.json"
+- Claude Code prompt: "Could you check https://anthropic.skilljar.com/ai-fluency-for-pk12-educators and https://anthropic.skilljar.com/ai-fluency-for-educators? My browser shows me only the second one."
+    - "courseOverview.json is back to 18 courses — all publicly listed ones. The pk12 course exists behind a login wall so it was a false positive from the embedded JS bundle."
+- "could you make a note somewhere in the repository about those 2 overlapping courses and data sources? and also update the 2 files in data directory.
+"
+- I: do not touch the README.md and other files you did not create.
+    - CC: Good — the README.md is already clean (the user reverted my addition). The _notes are in both data files already.
+    - CC: Both data files have their _notes. The README.md is untouched. Done.
 
 ## Contact
 
