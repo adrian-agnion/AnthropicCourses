@@ -1,0 +1,1064 @@
+{
+  "courseDetails": [
+    {
+      "id": "claude-101",
+      "path": "/claude-101",
+      "link": "https://anthropic.skilljar.com/claude-101",
+      "stats": {},
+      "en": {
+        "title": "Claude 101",
+        "subtitle": "Learn how to use Claude for everyday work tasks, understand core features, and explore resources for more advanced learning on other topics.",
+        "sections": []
+      },
+      "de": {
+        "title": "Claude 101",
+        "subtitle": "Lernen Sie, wie Sie Claude für alltägliche Arbeitsaufgaben nutzen, verstehen Sie die Kernfunktionen und entdecken Sie Ressourcen für fortgeschritteneres Lernen zu anderen Themen.",
+        "sections": []
+      }
+    },
+    {
+      "id": "claude-code-101",
+      "path": "/claude-code-101",
+      "link": "https://anthropic.skilljar.com/claude-code-101",
+      "stats": {
+        "lectureCount": 12,
+        "videoHours": 1.5,
+        "quizCount": 1
+      },
+      "en": {
+        "title": "Claude Code 101",
+        "subtitle": "Learn how to use Claude Code effectively in your daily development workflow.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "What is Claude Code?",
+            "lessonCount": 2,
+            "description": "Before you write your first prompt, it helps to know what's actually happening when Claude Code runs. This section explains what separates an AI coding agent from a chat-based assistant, then walks through the agentic loop — gather context, take action, verify results — and the tools and permissions that govern each step. You'll come away with a mental model that makes everything in the rest of the course click."
+          },
+          {
+            "id": "section-2",
+            "title": "Your first prompt",
+            "lessonCount": 2,
+            "description": "Get Claude Code running wherever you already work — in the terminal, inside VS Code or JetBrains, in Claude Desktop, or on the web. Then write your first prompt and see how approval mode, auto-accept, and Plan Mode change the way Claude responds, so you can pick the right level of oversight for the task in front of you."
+          },
+          {
+            "id": "section-3",
+            "title": "Daily workflows",
+            "lessonCount": 3,
+            "description": "This is where Claude Code becomes part of how you ship. Learn the Explore → Plan → Code → Commit rhythm for tackling real tasks, use the context-management commands to keep long sessions fast and focused, and put Claude to work reviewing code — your own and your teammates' — before it lands."
+          },
+          {
+            "id": "section-4",
+            "title": "Customizing Claude Code",
+            "lessonCount": 5,
+            "description": "Out of the box, Claude Code is general-purpose. This section shows you how to make it yours: write a CLAUDE.md file so it remembers your project's conventions, build subagents and skills for the workflows you repeat, wire in external systems through MCP servers, and add hooks for deterministic guardrails. By the end you'll have a setup tuned to the way your team actually works."
+          }
+        ]
+      },
+      "de": {
+        "title": "Claude Code 101",
+        "subtitle": "Erfahren Sie, wie Sie Claude Code effektiv in Ihrem täglichen Entwicklungs-Workflow einsetzen können.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Was ist Claude Code?",
+            "description": "Bevor Sie Ihren ersten Prompt schreiben, ist es hilfreich zu verstehen, was tatsächlich passiert, wenn Claude Code ausgeführt wird. Dieser Abschnitt erklärt, was einen KI-Coding-Agenten von einem chatbasierten Assistenten unterscheidet, und führt durch den agentischen Loop — Kontext sammeln, Aktionen ausführen, Ergebnisse überprüfen — sowie die Tools und Berechtigungen, die jeden Schritt steuern. Sie erhalten ein mentales Modell, das alles im weiteren Verlauf des Kurses verständlich macht.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-2",
+            "title": "Ihr erster Prompt",
+            "description": "Bringen Sie Claude Code überall zum Laufen, wo Sie bereits arbeiten — im Terminal, in VS Code oder JetBrains, in Claude Desktop oder im Web. Schreiben Sie dann Ihren ersten Prompt und sehen Sie, wie der Genehmigungsmodus, die automatische Akzeptanz und der Plan-Modus die Reaktionsweise von Claude verändern, damit Sie das richtige Maß an Kontrolle für die jeweilige Aufgabe wählen können.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-3",
+            "title": "Tägliche Workflows",
+            "description": "Hier wird Claude Code Teil Ihrer Arbeitsweise. Lernen Sie den Erkunden → Planen → Programmieren → Committen-Rhythmus zur Bewältigung realer Aufgaben, verwenden Sie die Kontextverwaltungsbefehle, um lange Sitzungen schnell und fokussiert zu halten, und setzen Sie Claude ein, um Code zu überprüfen — Ihren eigenen und den Ihrer Teammitglieder — bevor er eingespielt wird.",
+            "lessonCount": 3
+          },
+          {
+            "id": "section-4",
+            "title": "Claude Code anpassen",
+            "description": "Standardmäßig ist Claude Code ein Allzweckwerkzeug. Dieser Abschnitt zeigt Ihnen, wie Sie es zu Ihrem eigenen machen: Schreiben Sie eine CLAUDE.md-Datei, damit es sich die Konventionen Ihres Projekts merkt, erstellen Sie Subagenten und Skills für Workflows, die Sie regelmäßig wiederholen, binden Sie externe Systeme über MCP-Server ein und fügen Sie Hooks für deterministische Leitplanken hinzu. Am Ende verfügen Sie über ein Setup, das auf die tatsächliche Arbeitsweise Ihres Teams abgestimmt ist.",
+            "lessonCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "introduction-to-claude-cowork",
+      "path": "/introduction-to-claude-cowork",
+      "link": "https://anthropic.skilljar.com/introduction-to-claude-cowork",
+      "stats": {
+        "lectureCount": 14,
+        "videoHours": 0.5,
+        "quizCount": 1
+      },
+      "en": {
+        "title": "Introduction to Claude Cowork",
+        "subtitle": "Learn to work alongside Claude on your real files and projects. This hands-on course covers the Cowork task loop, skills and plugins, extending Claude into Chrome, Word, Excel, PowerPoint, and Outlook, and how to steer multi-step work responsibly — so you're productive in your first week.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Meet Claude Cowork",
+            "lessonCount": 4,
+            "description": "What Cowork is and how it differs from Chat, how to set it up, and your first end-to-end task: describe it, watch Claude plan and execute, and steer along the way."
+          },
+          {
+            "id": "section-2",
+            "title": "Make Claude Cowork yours",
+            "lessonCount": 4,
+            "description": "Give Claude standing context with global instructions and projects, then build skills and install plugins so Claude knows your vocabulary, your steps, and the outputs you expect."
+          },
+          {
+            "id": "section-3",
+            "title": "Use Claude wherever you work",
+            "lessonCount": 2,
+            "description": "Drive web apps with Claude in Chrome, and work inside Word, Excel, PowerPoint, and Outlook with the Claude add-ins for each."
+          },
+          {
+            "id": "section-4",
+            "title": "Sharing and safety in Claude Cowork",
+            "lessonCount": 4,
+            "description": "Work safely by reviewing plans and outputs, validate skills before you rely on them, and share plugins and workflows with your team."
+          }
+        ]
+      },
+      "de": {
+        "title": "Einführung in Claude Cowork",
+        "subtitle": "Lernen Sie, gemeinsam mit Claude an Ihren echten Dateien und Projekten zu arbeiten. Dieser praxisorientierte Kurs behandelt den Cowork-Aufgabenablauf, Skills und Plugins, die Erweiterung von Claude in Chrome, Word, Excel, PowerPoint und Outlook sowie die verantwortungsvolle Steuerung mehrstufiger Arbeitsabläufe – damit Sie in Ihrer ersten Woche produktiv sind.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Claude Cowork kennenlernen",
+            "description": "Was Cowork ist und wie es sich von Chat unterscheidet, wie man es einrichtet, und Ihre erste vollständige Aufgabe: beschreiben Sie sie, beobachten Sie, wie Claude plant und ausführt, und steuern Sie dabei mit.",
+            "lessonCount": 4
+          },
+          {
+            "id": "section-2",
+            "title": "Claude Cowork personalisieren",
+            "description": "Geben Sie Claude dauerhaften Kontext durch globale Anweisungen und Projekte, erstellen Sie dann Skills und installieren Sie Plugins, damit Claude Ihr Vokabular, Ihre Arbeitsschritte und die erwarteten Ergebnisse kennt.",
+            "lessonCount": 4
+          },
+          {
+            "id": "section-3",
+            "title": "Claude überall dort nutzen, wo Sie arbeiten",
+            "description": "Steuern Sie Web-Apps mit Claude in Chrome, und arbeiten Sie mit den Claude-Add-ins direkt in Word, Excel, PowerPoint und Outlook.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-4",
+            "title": "Teilen und Sicherheit in Claude Cowork",
+            "description": "Arbeiten Sie sicher, indem Sie Pläne und Ergebnisse überprüfen, Skills validieren, bevor Sie sich darauf verlassen, und teilen Sie Plugins und Arbeitsabläufe mit Ihrem Team.",
+            "lessonCount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "claude-code-in-action",
+      "path": "/claude-code-in-action",
+      "link": "https://anthropic.skilljar.com/claude-code-in-action",
+      "stats": {
+        "lectureCount": 15,
+        "videoHours": 1.0,
+        "quizCount": 1
+      },
+      "en": {
+        "title": "Claude Code in Action",
+        "subtitle": "Practical walkthrough of using <a href='https://claude.com/product/claude-code'>Claude Code</a> to accelerate your development workflow",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Claude Code in action",
+            "lessonCount": 10,
+            "description": "Complete guide to using Claude Code effectively. Starts with understanding how coding assistants work, then moves through setup, context management, making changes, and advanced features like MCP servers, GitHub integration, and hook implementations."
+          }
+        ]
+      },
+      "de": {
+        "title": "Claude Code in Aktion",
+        "subtitle": "Praktische Einführung in die Verwendung von <a href='https://claude.com/product/claude-code'>Claude Code</a> zur Beschleunigung Ihres Entwicklungsworkflows",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Claude Code in Aktion",
+            "description": "Vollständiger Leitfaden zur effektiven Nutzung von Claude Code. Beginnt mit dem Verständnis, wie Programmierassistenten funktionieren, und führt dann durch Einrichtung, Kontextverwaltung, Änderungen vornehmen sowie erweiterte Funktionen wie MCP-Server, GitHub-Integration und Hook-Implementierungen.",
+            "lessonCount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-fluency-framework-foundations",
+      "path": "/ai-fluency-framework-foundations",
+      "link": "https://anthropic.skilljar.com/ai-fluency-framework-foundations",
+      "stats": {
+        "lectureCount": 14,
+        "videoHours": 1.1,
+        "quizCount": 1
+      },
+      "en": {
+        "title": "AI Fluency: Framework & Foundations",
+        "subtitle": "Learn to collaborate with AI systems effectively, efficiently, ethically, and safely",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "AI Fundamentals & Framework",
+            "lessonCount": 10,
+            "description": "Establish foundational understanding of generative AI systems and why developing AI fluency matters for effective collaboration. Introduces the 4D Framework as a structured approach to human-AI interaction, covering core capabilities and limitations of current AI technologies. Provides the conceptual grounding needed to approach AI tools strategically rather than reactively."
+          },
+          {
+            "id": "section-2",
+            "title": "Practical AI Skills",
+            "lessonCount": 10,
+            "description": "Develop hands-on competencies for effective AI collaboration through the four core areas of the framework: delegation, description, discernment, and diligence. Learn systematic approaches to project planning with AI, crafting effective prompts, evaluating outputs critically, and iterating through the description-discernment loop. Emphasizes practical application across creative, business, and educational contexts."
+          }
+        ]
+      },
+      "de": {
+        "title": "KI-Kompetenz: Rahmenwerk & Grundlagen",
+        "subtitle": "Lernen Sie, effektiv, effizient, ethisch und sicher mit KI-Systemen zusammenzuarbeiten",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "KI-Grundlagen & Rahmenwerk",
+            "description": "Aufbau eines grundlegenden Verständnisses generativer KI-Systeme und warum die Entwicklung von KI-Kompetenz für eine effektive Zusammenarbeit wichtig ist. Stellt das 4D-Framework als strukturierten Ansatz für die Mensch-KI-Interaktion vor und behandelt die wesentlichen Fähigkeiten und Einschränkungen aktueller KI-Technologien. Vermittelt die konzeptionellen Grundlagen, um KI-Tools strategisch statt reaktiv einzusetzen.",
+            "lessonCount": 10
+          },
+          {
+            "id": "section-2",
+            "title": "Praktische KI-Fähigkeiten",
+            "description": "Entwicklung praktischer Kompetenzen für eine effektive KI-Zusammenarbeit durch die vier Kernbereiche des Rahmenwerks: Delegation, Beschreibung, Urteilsvermögen und Sorgfalt. Erlernen Sie systematische Ansätze zur Projektplanung mit KI, zur Erstellung effektiver Prompts, zur kritischen Bewertung von Ergebnissen und zur Iteration durch den Beschreibungs-Urteilsvermögen-Kreislauf. Der Schwerpunkt liegt auf der praktischen Anwendung in kreativen, geschäftlichen und bildungsbezogenen Kontexten.",
+            "lessonCount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": "claude-with-the-anthropic-api",
+      "path": "/claude-with-the-anthropic-api",
+      "link": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+      "stats": {
+        "lectureCount": 84,
+        "videoHours": 8.1,
+        "quizCount": 10
+      },
+      "en": {
+        "title": "Building with the Claude API",
+        "subtitle": "This comprehensive course covers the full spectrum of working with Anthropic models using the Claude API",
+        "sections": [
+          {
+            "id": "section-2",
+            "title": "Getting started with Claude",
+            "lessonCount": 16,
+            "description": "Start here for the fundamentals. Covers API authentication, basic requests, conversation management, system prompts, and structured output generation."
+          },
+          {
+            "id": "section-3",
+            "title": "Prompt engineering & evaluation",
+            "lessonCount": 16,
+            "description": "Learn to write prompts that actually work. Focuses on prompting strategies, evaluation frameworks, and systematic testing approaches."
+          },
+          {
+            "id": "section-4",
+            "title": "Tool use with Claude",
+            "lessonCount": 14,
+            "description": "Extend Claude with custom tools and functions. Build apps with function calling, multi-turn tool interactions, batch tool calling, and leverage built-in utilities."
+          },
+          {
+            "id": "section-5",
+            "title": "Retrieval augmented generation",
+            "lessonCount": 10,
+            "description": "Implementation guide for production RAG systems. Covers text chunking, embeddings, hybrid search with BM25, multi-index architectures, reranking, and contextual retrieval."
+          },
+          {
+            "id": "section-6",
+            "title": "Model Context Protocol (MCP)",
+            "lessonCount": 12,
+            "description": "The protocol for building modular AI applications. Define custom tools and resources, implement MCP servers and clients, handle the full integration lifecycle."
+          },
+          {
+            "id": "section-7",
+            "title": "Claude Code & Computer Use",
+            "lessonCount": 8,
+            "description": "Two powerful Anthropic tools in action. Claude Code accelerates development workflows, Computer Use automates UI interactions. Includes MCP integration patterns."
+          },
+          {
+            "id": "section-8",
+            "title": "Agents and workflows",
+            "lessonCount": 11,
+            "description": "Architecture patterns for autonomous AI systems. Understand parallel execution, operation chaining, conditional routing, and effective debugging strategies."
+          }
+        ]
+      },
+      "de": {
+        "title": "Entwickeln mit der Claude API",
+        "subtitle": "Dieser umfassende Kurs deckt das gesamte Spektrum der Arbeit mit Anthropic-Modellen über die Claude API ab",
+        "sections": [
+          {
+            "id": "section-2",
+            "title": "Erste Schritte mit Claude",
+            "description": "Beginnen Sie hier mit den Grundlagen. Behandelt API-Authentifizierung, grundlegende Anfragen, Gesprächsverwaltung, System-Prompts und die Generierung strukturierter Ausgaben.",
+            "lessonCount": 16
+          },
+          {
+            "id": "section-3",
+            "title": "Prompt-Engineering & Evaluierung",
+            "description": "Lernen Sie, Prompts zu schreiben, die wirklich funktionieren. Schwerpunkte sind Prompting-Strategien, Evaluierungsrahmen und systematische Testansätze.",
+            "lessonCount": 16
+          },
+          {
+            "id": "section-4",
+            "title": "Tool-Nutzung mit Claude",
+            "description": "Erweitern Sie Claude mit benutzerdefinierten Tools und Funktionen. Erstellen Sie Apps mit Funktionsaufrufen, mehrstufigen Tool-Interaktionen, Batch-Tool-Aufrufen und nutzen Sie integrierte Hilfsprogramme.",
+            "lessonCount": 14
+          },
+          {
+            "id": "section-5",
+            "title": "Retrieval Augmented Generation",
+            "description": "Implementierungsleitfaden für produktionsreife RAG-Systeme. Behandelt Text-Chunking, Embeddings, hybride Suche mit BM25, Multi-Index-Architekturen, Reranking und kontextuelle Retrieval-Verfahren.",
+            "lessonCount": 10
+          },
+          {
+            "id": "section-6",
+            "title": "Model Context Protocol (MCP)",
+            "description": "Das Protokoll zum Erstellen modularer KI-Anwendungen. Definieren Sie benutzerdefinierte Tools und Ressourcen, implementieren Sie MCP-Server und -Clients und verwalten Sie den gesamten Integrationslebenszyklus.",
+            "lessonCount": 12
+          },
+          {
+            "id": "section-7",
+            "title": "Claude Code & Computer Use",
+            "description": "Zwei leistungsstarke Anthropic-Tools im Einsatz. Claude Code beschleunigt Entwicklungs-Workflows, Computer Use automatisiert UI-Interaktionen. Enthält MCP-Integrationsmuster.",
+            "lessonCount": 8
+          },
+          {
+            "id": "section-8",
+            "title": "Agenten und Workflows",
+            "description": "Architekturmuster für autonome KI-Systeme. Verstehen Sie parallele Ausführung, Operationsverkettung, bedingtes Routing und effektive Debugging-Strategien.",
+            "lessonCount": 11
+          }
+        ]
+      }
+    },
+    {
+      "id": "introduction-to-model-context-protocol",
+      "path": "/introduction-to-model-context-protocol",
+      "link": "https://anthropic.skilljar.com/introduction-to-model-context-protocol",
+      "stats": {
+        "lectureCount": 16,
+        "videoHours": 1.0,
+        "quizCount": 1
+      },
+      "en": {
+        "title": "Introduction to Model Context Protocol",
+        "subtitle": "Learn how to build modular AI applications using MCP to connect Claude with external tools and data sources",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "MCP fundamentals & server development",
+            "lessonCount": 8,
+            "description": "Start with understanding MCP's architecture and why it exists. Build your first MCP server with tools using the Python SDK, then test it with the built-in inspector."
+          },
+          {
+            "id": "section-2",
+            "title": "MCP client implementation & advanced features",
+            "lessonCount": 8,
+            "description": "Build the client side to communicate with MCP servers. Implement resources for direct data access and prompts for pre-built instructions. See how everything connects in a complete application flow."
+          }
+        ]
+      },
+      "de": {
+        "title": "Einführung in das Model Context Protocol",
+        "subtitle": "Lernen Sie, wie Sie modulare KI-Anwendungen mit MCP erstellen, um Claude mit externen Tools und Datenquellen zu verbinden",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "MCP-Grundlagen & Serverentwicklung",
+            "description": "Beginnen Sie mit dem Verständnis der Architektur von MCP und dem Grund seiner Existenz. Erstellen Sie Ihren ersten MCP-Server mit Tools mithilfe des Python SDK und testen Sie ihn anschließend mit dem integrierten Inspector.",
+            "lessonCount": 8
+          },
+          {
+            "id": "section-2",
+            "title": "MCP-Client-Implementierung & erweiterte Funktionen",
+            "description": "Erstellen Sie die Client-Seite zur Kommunikation mit MCP-Servern. Implementieren Sie Ressourcen für den direkten Datenzugriff und Prompts für vorgefertigte Anweisungen. Sehen Sie, wie alles in einem vollständigen Anwendungsablauf zusammenhängt.",
+            "lessonCount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-fluency-for-educators",
+      "path": "/ai-fluency-for-educators",
+      "link": "https://anthropic.skilljar.com/ai-fluency-for-educators",
+      "stats": {
+        "lectureCount": 4,
+        "videoHours": 0.4
+      },
+      "en": {
+        "title": "AI Fluency for Educators",
+        "subtitle": "This course empowers faculty, instructional designers, and educational leaders to apply AI Fluency into their own teaching practice and institutional strategy.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Introduction and AI Fluency Framework",
+            "lessonCount": 2,
+            "description": "A summary of Delegation, Description, Discernment, and Diligence applied to student contexts"
+          },
+          {
+            "id": "section-2",
+            "title": "AI Fluency Framework applications for educators",
+            "lessonCount": 2,
+            "description": "Applying the 4D framework to course design and learning materials."
+          }
+        ]
+      },
+      "de": {
+        "title": "KI-Kompetenz für Lehrende",
+        "subtitle": "Dieser Kurs befähigt Lehrkräfte, Instructional Designer und Bildungsverantwortliche, KI-Kompetenz in ihre eigene Lehrpraxis und institutionelle Strategie zu integrieren.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Einführung und KI-Kompetenz-Framework",
+            "description": "Eine Zusammenfassung von Delegation, Beschreibung, Urteilsvermögen und Sorgfalt, angewendet auf studentische Kontexte",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-2",
+            "title": "Anwendungen des KI-Kompetenz-Frameworks für Lehrende",
+            "description": "Anwendung des 4D-Frameworks auf Kursgestaltung und Lernmaterialien.",
+            "lessonCount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-fluency-for-students",
+      "path": "/ai-fluency-for-students",
+      "link": "https://anthropic.skilljar.com/ai-fluency-for-students",
+      "stats": {
+        "lectureCount": 5,
+        "videoHours": 0.5
+      },
+      "en": {
+        "title": "AI Fluency for Students",
+        "subtitle": "This course empowers students to develop AI Fluency skills that enhance learning, career planning, and academic success through responsible AI collaboration.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Introduction and AI Fluency Framework",
+            "lessonCount": 2,
+            "description": "A summary of Delegation, Description, Discernment, and Diligence applied to student contexts"
+          },
+          {
+            "id": "section-2",
+            "title": "AI Fluency Framework applications for students",
+            "lessonCount": 2,
+            "description": "Applying the 4D framework to learning and career planning."
+          },
+          {
+            "id": "section-3",
+            "title": "Conclusion",
+            "lessonCount": 1,
+            "description": "Developing personal commitments for responsible AI collaboration and maintaining agency."
+          }
+        ]
+      },
+      "de": {
+        "title": "KI-Kompetenz für Studierende",
+        "subtitle": "Dieser Kurs befähigt Studierende, KI-Kompetenzfähigkeiten zu entwickeln, die das Lernen, die Karriereplanung und den akademischen Erfolg durch verantwortungsvolle KI-Zusammenarbeit fördern.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Einführung und KI-Kompetenz-Framework",
+            "description": "Eine Zusammenfassung von Delegation, Beschreibung, Urteilsvermögen und Sorgfalt, angewendet auf studentische Kontexte",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-2",
+            "title": "Anwendungen des KI-Kompetenz-Frameworks für Studierende",
+            "description": "Anwendung des 4D-Frameworks auf Lernen und Karriereplanung.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-3",
+            "title": "Abschluss",
+            "description": "Entwicklung persönlicher Verpflichtungen für verantwortungsvolle KI-Zusammenarbeit und die Wahrung von Handlungsautonomie.",
+            "lessonCount": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "model-context-protocol-advanced-topics",
+      "path": "/model-context-protocol-advanced-topics",
+      "link": "https://anthropic.skilljar.com/model-context-protocol-advanced-topics",
+      "stats": {
+        "lectureCount": 15,
+        "videoHours": 1.1,
+        "quizCount": 2
+      },
+      "en": {
+        "title": "Model Context Protocol: Advanced Topics",
+        "subtitle": "Deep dive into MCP's advanced features including sampling, notifications, and transport implementations",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Core MCP features",
+            "lessonCount": 8,
+            "description": "Learn the advanced features that make MCP servers more powerful. Covers sampling to offload AI costs to clients, implementing progress notifications for better UX, and using roots to safely handle file access."
+          },
+          {
+            "id": "section-2",
+            "title": "Transports and communication",
+            "lessonCount": 7,
+            "description": "Understand how MCP messages flow between clients and servers. Explores the JSON message protocol, STDIO transport for local development, and the complexities of StreamableHTTP including when to sacrifice features for scalability."
+          }
+        ]
+      },
+      "de": {
+        "title": "Model Context Protocol: Fortgeschrittene Themen",
+        "subtitle": "Tiefer Einblick in die erweiterten Funktionen von MCP, einschließlich Sampling, Benachrichtigungen und Transport-Implementierungen",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Grundlegende MCP-Funktionen",
+            "description": "Lernen Sie die erweiterten Funktionen kennen, die MCP-Server leistungsfähiger machen. Behandelt Sampling zur Auslagerung von KI-Kosten an Clients, die Implementierung von Fortschrittsbenachrichtigungen für eine bessere Benutzererfahrung und die Verwendung von Roots zur sicheren Handhabung des Dateizugriffs.",
+            "lessonCount": 8
+          },
+          {
+            "id": "section-2",
+            "title": "Transporte und Kommunikation",
+            "description": "Verstehen Sie, wie MCP-Nachrichten zwischen Clients und Servern fließen. Untersucht das JSON-Nachrichtenprotokoll, STDIO-Transport für die lokale Entwicklung und die Komplexität von StreamableHTTP, einschließlich der Frage, wann Funktionen zugunsten der Skalierbarkeit geopfert werden sollten.",
+            "lessonCount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "claude-in-amazon-bedrock",
+      "path": "/claude-in-amazon-bedrock",
+      "link": "https://anthropic.skilljar.com/claude-in-amazon-bedrock",
+      "stats": {
+        "lectureCount": 85,
+        "videoHours": 8.0,
+        "quizCount": 10
+      },
+      "en": {
+        "title": "Claude with Amazon Bedrock",
+        "subtitle": "This comprehensive course covers the full spectrum of working with Anthropic models using Amazon Bedrock",
+        "sections": [
+          {
+            "id": "section-2",
+            "title": "Getting started with Amazon Bedrock",
+            "lessonCount": 16,
+            "description": "Start here for the fundamentals. Covers API authentication, basic requests, conversation management, system prompts, and structured output generation."
+          },
+          {
+            "id": "section-3",
+            "title": "Prompt engineering & evaluation",
+            "lessonCount": 16,
+            "description": "Learn to write prompts that actually work. Focuses on prompting strategies, evaluation frameworks, and systematic testing approaches."
+          },
+          {
+            "id": "section-4",
+            "title": "Tool use with Claude",
+            "lessonCount": 14,
+            "description": "Extend Claude with custom tools and functions. Build apps with function calling, multi-turn tool interactions, batch tool calling, and leverage built-in utilities."
+          },
+          {
+            "id": "section-5",
+            "title": "Retrieval augmented generation",
+            "lessonCount": 10,
+            "description": "Implementation guide for production RAG systems. Covers text chunking, embeddings, hybrid search with BM25, multi-index architectures, reranking, and contextual retrieval."
+          },
+          {
+            "id": "section-6",
+            "title": "Model Context Protocol (MCP)",
+            "lessonCount": 12,
+            "description": "The protocol for building modular AI applications. Define custom tools and resources, implement MCP servers and clients, handle the full integration lifecycle."
+          },
+          {
+            "id": "section-7",
+            "title": "Claude Code & Computer Use",
+            "lessonCount": 8,
+            "description": "Two powerful Anthropic tools in action. Claude Code accelerates development workflows, Computer Use automates UI interactions. Includes MCP integration patterns."
+          }
+        ]
+      },
+      "de": {
+        "title": "Claude mit Amazon Bedrock",
+        "subtitle": "Dieser umfassende Kurs deckt das gesamte Spektrum der Arbeit mit Anthropic-Modellen unter Verwendung von Amazon Bedrock ab",
+        "sections": [
+          {
+            "id": "section-2",
+            "title": "Erste Schritte mit Amazon Bedrock",
+            "description": "Beginnen Sie hier mit den Grundlagen. Behandelt API-Authentifizierung, grundlegende Anfragen, Gesprächsverwaltung, System-Prompts und strukturierte Ausgabegenerierung.",
+            "lessonCount": 16
+          },
+          {
+            "id": "section-3",
+            "title": "Prompt-Engineering & Evaluierung",
+            "description": "Lernen Sie, Prompts zu schreiben, die tatsächlich funktionieren. Schwerpunkte sind Prompting-Strategien, Evaluierungsrahmen und systematische Testansätze.",
+            "lessonCount": 16
+          },
+          {
+            "id": "section-4",
+            "title": "Tool-Nutzung mit Claude",
+            "description": "Erweitern Sie Claude mit benutzerdefinierten Tools und Funktionen. Erstellen Sie Apps mit Funktionsaufrufen, mehrstufigen Tool-Interaktionen, Batch-Tool-Aufrufen und nutzen Sie integrierte Hilfsprogramme.",
+            "lessonCount": 14
+          },
+          {
+            "id": "section-5",
+            "title": "Retrieval Augmented Generation",
+            "description": "Implementierungsleitfaden für produktive RAG-Systeme. Behandelt Text-Chunking, Embeddings, hybride Suche mit BM25, Multi-Index-Architekturen, Reranking und kontextuelle Retrieval-Verfahren.",
+            "lessonCount": 10
+          },
+          {
+            "id": "section-6",
+            "title": "Model Context Protocol (MCP)",
+            "description": "Das Protokoll zum Erstellen modularer KI-Anwendungen. Definieren Sie benutzerdefinierte Tools und Ressourcen, implementieren Sie MCP-Server und -Clients und verwalten Sie den gesamten Integrationslebenszyklus.",
+            "lessonCount": 12
+          },
+          {
+            "id": "section-7",
+            "title": "Claude Code & Computer Use",
+            "description": "Zwei leistungsstarke Anthropic-Tools im Einsatz. Claude Code beschleunigt Entwicklungs-Workflows, Computer Use automatisiert UI-Interaktionen. Enthält MCP-Integrationsmuster.",
+            "lessonCount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": "claude-with-google-vertex",
+      "path": "/claude-with-google-vertex",
+      "link": "https://anthropic.skilljar.com/claude-with-google-vertex",
+      "stats": {
+        "lectureCount": 85,
+        "videoHours": 8.0,
+        "quizCount": 10
+      },
+      "en": {
+        "title": "Claude with Google Cloud's Vertex AI",
+        "subtitle": "This comprehensive course covers the full spectrum of working with Anthropic models using Google Cloud's Vertex AI",
+        "sections": [
+          {
+            "id": "section-2",
+            "title": "Getting started with Claude",
+            "lessonCount": 16,
+            "description": "Start here for the fundamentals. Covers API authentication, basic requests, conversation management, system prompts, and structured output generation."
+          },
+          {
+            "id": "section-3",
+            "title": "Prompt engineering & evaluation",
+            "lessonCount": 16,
+            "description": "Learn to write prompts that actually work. Focuses on prompting strategies, evaluation frameworks, and systematic testing approaches."
+          },
+          {
+            "id": "section-4",
+            "title": "Tool use with Claude",
+            "lessonCount": 14,
+            "description": "Extend Claude with custom tools and functions. Build apps with function calling, multi-turn tool interactions, batch tool calling, and leverage built-in utilities."
+          },
+          {
+            "id": "section-5",
+            "title": "Retrieval augmented generation",
+            "lessonCount": 10,
+            "description": "Implementation guide for production RAG systems. Covers text chunking, embeddings, hybrid search with BM25, multi-index architectures, reranking, and contextual retrieval."
+          },
+          {
+            "id": "section-6",
+            "title": "Model Context Protocol (MCP)",
+            "lessonCount": 12,
+            "description": "The protocol for building modular AI applications. Define custom tools and resources, implement MCP servers and clients, handle the full integration lifecycle."
+          },
+          {
+            "id": "section-7",
+            "title": "Claude Code & Computer Use",
+            "lessonCount": 8,
+            "description": "Two powerful Anthropic tools in action. Claude Code accelerates development workflows, Computer Use automates UI interactions. Includes MCP integration patterns."
+          },
+          {
+            "id": "section-8",
+            "title": "Agents and workflows",
+            "lessonCount": 11,
+            "description": "Architecture patterns for autonomous AI systems. Understand parallel execution, operation chaining, conditional routing, and effective debugging strategies."
+          }
+        ]
+      },
+      "de": {
+        "title": "Claude mit Google Cloud's Vertex AI",
+        "subtitle": "Dieser umfassende Kurs deckt das gesamte Spektrum der Arbeit mit Anthropic-Modellen unter Verwendung von Google Cloud's Vertex AI ab",
+        "sections": [
+          {
+            "id": "section-2",
+            "title": "Erste Schritte mit Claude",
+            "description": "Beginnen Sie hier mit den Grundlagen. Behandelt API-Authentifizierung, grundlegende Anfragen, Gesprächsverwaltung, System-Prompts und strukturierte Ausgabegenerierung.",
+            "lessonCount": 16
+          },
+          {
+            "id": "section-3",
+            "title": "Prompt-Engineering & Evaluierung",
+            "description": "Lernen Sie, Prompts zu schreiben, die tatsächlich funktionieren. Konzentriert sich auf Prompt-Strategien, Evaluierungsrahmen und systematische Testansätze.",
+            "lessonCount": 16
+          },
+          {
+            "id": "section-4",
+            "title": "Tool-Nutzung mit Claude",
+            "description": "Erweitern Sie Claude mit benutzerdefinierten Tools und Funktionen. Erstellen Sie Apps mit Funktionsaufrufen, mehrstufigen Tool-Interaktionen, Batch-Tool-Aufrufen und nutzen Sie integrierte Hilfsprogramme.",
+            "lessonCount": 14
+          },
+          {
+            "id": "section-5",
+            "title": "Retrieval Augmented Generation",
+            "description": "Implementierungsleitfaden für produktive RAG-Systeme. Behandelt Text-Chunking, Embeddings, hybride Suche mit BM25, Multi-Index-Architekturen, Reranking und kontextuelle Retrieval-Verfahren.",
+            "lessonCount": 10
+          },
+          {
+            "id": "section-6",
+            "title": "Model Context Protocol (MCP)",
+            "description": "Das Protokoll zum Aufbau modularer KI-Anwendungen. Definieren Sie benutzerdefinierte Tools und Ressourcen, implementieren Sie MCP-Server und -Clients und verwalten Sie den gesamten Integrationslebenszyklus.",
+            "lessonCount": 12
+          },
+          {
+            "id": "section-7",
+            "title": "Claude Code & Computer Use",
+            "description": "Zwei leistungsstarke Anthropic-Tools in der Praxis. Claude Code beschleunigt Entwicklungs-Workflows, Computer Use automatisiert UI-Interaktionen. Enthält MCP-Integrationsmuster.",
+            "lessonCount": 8
+          },
+          {
+            "id": "section-8",
+            "title": "Agenten und Workflows",
+            "description": "Architekturmuster für autonome KI-Systeme. Verstehen Sie parallele Ausführung, Operationsverkettung, bedingte Weiterleitung und effektive Debugging-Strategien.",
+            "lessonCount": 11
+          }
+        ]
+      }
+    },
+    {
+      "id": "teaching-ai-fluency",
+      "path": "/teaching-ai-fluency",
+      "link": "https://anthropic.skilljar.com/teaching-ai-fluency",
+      "stats": {
+        "lectureCount": 7,
+        "videoHours": 0.6,
+        "quizCount": 1
+      },
+      "en": {
+        "title": "Teaching AI Fluency",
+        "subtitle": "This course empowers academic faculty, instructional designers, and others to teach and assess AI Fluency in instructor-led settings.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Teaching approaches",
+            "lessonCount": 3,
+            "description": "Scaffolding student AI Fluency through the 4D Framework."
+          },
+          {
+            "id": "section-2",
+            "title": "Assessment & Assignment",
+            "lessonCount": 2,
+            "description": "Designing assessments and assignments that develop and measure student AI Fluency alongside disciplinary expertise."
+          },
+          {
+            "id": "section-3",
+            "title": "AI's impact and your discipline",
+            "lessonCount": 2,
+            "description": "Building institutional capacity for responsible and meaningful AI integration in pedagogy, assessment, and curricula across disciplines."
+          }
+        ]
+      },
+      "de": {
+        "title": "KI-Kompetenz vermitteln",
+        "subtitle": "Dieser Kurs befähigt Hochschuldozenten, Lehrdesigner und andere dazu, KI-Kompetenz in lehrgeleiteten Umgebungen zu unterrichten und zu bewerten.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Lehransätze",
+            "description": "Schrittweiser Aufbau der studentischen KI-Kompetenz durch das 4D-Framework.",
+            "lessonCount": 3
+          },
+          {
+            "id": "section-2",
+            "title": "Bewertung & Aufgaben",
+            "description": "Gestaltung von Prüfungen und Aufgaben, die studentische KI-Kompetenz gemeinsam mit fachlicher Expertise entwickeln und messen.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-3",
+            "title": "Der Einfluss von KI auf Ihr Fachgebiet",
+            "description": "Aufbau institutioneller Kapazitäten für eine verantwortungsvolle und sinnvolle KI-Integration in Pädagogik, Bewertung und Lehrpläne über alle Disziplinen hinweg.",
+            "lessonCount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-fluency-for-nonprofits",
+      "path": "/ai-fluency-for-nonprofits",
+      "link": "https://anthropic.skilljar.com/ai-fluency-for-nonprofits",
+      "stats": {
+        "lectureCount": 9,
+        "videoHours": 0.9,
+        "quizCount": 1
+      },
+      "en": {
+        "title": "AI Fluency for nonprofits",
+        "subtitle": "This course empowers nonprofit professionals to develop AI fluency in order to increase organizational impact and efficiency while staying true to their mission and values.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Introduction",
+            "lessonCount": 2,
+            "description": "Define AI Fluency and learn the four interconnected competencies—Delegation, Description, Discernment, and Diligence—that form the foundation of this course."
+          },
+          {
+            "id": "section-2",
+            "title": "Description-Discernment",
+            "lessonCount": 2,
+            "description": "Practice crafting context-rich prompts and critically evaluating AI outputs through research and writing examples."
+          },
+          {
+            "id": "section-3",
+            "title": "Delegation-Diligence",
+            "lessonCount": 2,
+            "description": "Make thoughtful decisions about what tasks to delegate to AI while taking responsibility for high-stakes considerations like data privacy and analytical accuracy."
+          },
+          {
+            "id": "section-4",
+            "title": "Putting it all together",
+            "lessonCount": 3,
+            "description": "Apply all four dimensions of the 4D Framework to automate workflows and integrate AI thoughtfully into your organization."
+          }
+        ]
+      },
+      "de": {
+        "title": "KI-Kompetenz für gemeinnützige Organisationen",
+        "subtitle": "Dieser Kurs befähigt Fachkräfte im gemeinnützigen Bereich, KI-Kompetenz zu entwickeln, um die organisatorische Wirkung und Effizienz zu steigern und dabei ihrer Mission und ihren Werten treu zu bleiben.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Einführung",
+            "description": "Definieren Sie KI-Kompetenz und lernen Sie die vier miteinander verbundenen Fähigkeiten – Delegation, Beschreibung, Unterscheidungsvermögen und Sorgfalt – kennen, die die Grundlage dieses Kurses bilden.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-2",
+            "title": "Beschreibung-Unterscheidungsvermögen",
+            "description": "Üben Sie die Erstellung kontextreicher Prompts und die kritische Bewertung von KI-Ergebnissen anhand von Recherche- und Schreibbeispielen.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-3",
+            "title": "Delegation-Sorgfalt",
+            "description": "Treffen Sie durchdachte Entscheidungen darüber, welche Aufgaben an KI delegiert werden sollen, und übernehmen Sie dabei Verantwortung für wichtige Aspekte wie Datenschutz und analytische Genauigkeit.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-4",
+            "title": "Alles zusammenführen",
+            "description": "Wenden Sie alle vier Dimensionen des 4D-Frameworks an, um Arbeitsabläufe zu automatisieren und KI durchdacht in Ihre Organisation zu integrieren.",
+            "lessonCount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "introduction-to-agent-skills",
+      "path": "/introduction-to-agent-skills",
+      "link": "https://anthropic.skilljar.com/introduction-to-agent-skills",
+      "stats": {},
+      "en": {
+        "title": "Introduction to agent skills",
+        "subtitle": "Learn how to build, configure, and share Skills in Claude Code — reusable markdown instructions that Claude automatically applies to the right tasks at   the right time. This course takes you from creating your first Skill to distributing them across teams and troubleshooting common issues.",
+        "sections": []
+      },
+      "de": {
+        "title": "Einführung in Agentenfähigkeiten",
+        "subtitle": "Lernen Sie, wie Sie Skills in Claude Code erstellen, konfigurieren und teilen – wiederverwendbare Markdown-Anweisungen, die Claude automatisch auf die richtigen Aufgaben zur richtigen Zeit anwendet. Dieser Kurs führt Sie vom Erstellen Ihres ersten Skills bis zur Verteilung in Teams und der Behebung häufiger Probleme.",
+        "sections": []
+      }
+    },
+    {
+      "id": "introduction-to-subagents",
+      "path": "/introduction-to-subagents",
+      "link": "https://anthropic.skilljar.com/introduction-to-subagents",
+      "stats": {},
+      "en": {
+        "title": "Introduction to subagents",
+        "subtitle": "Learn how to use and create sub-agents in Claude Code to manage context, delegate tasks, and build specialized   workflows that keep your main conversation clean and focused.",
+        "sections": []
+      },
+      "de": {
+        "title": "Einführung in Subagenten",
+        "subtitle": "Erfahren Sie, wie Sie Subagenten in Claude Code verwenden und erstellen, um den Kontext zu verwalten, Aufgaben zu delegieren und spezialisierte Workflows zu erstellen, die Ihr Hauptgespräch übersichtlich und fokussiert halten.",
+        "sections": []
+      }
+    },
+    {
+      "id": "ai-capabilities-and-limitations",
+      "path": "/ai-capabilities-and-limitations",
+      "link": "https://anthropic.skilljar.com/ai-capabilities-and-limitations",
+      "stats": {
+        "lectureCount": 13,
+        "videoHours": 0.25,
+        "quizCount": 1
+      },
+      "en": {
+        "title": "AI Capabilities and Limitations",
+        "subtitle": "An introductory course about how AI works",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Getting started",
+            "lessonCount": 3,
+            "description": "The word 'AI' covers a lot of ground. This section narrows it to the kind of system you'll actually be working with — large language models — and explains how two training stages, pretraining and fine-tuning, turn a raw text predictor into the helpful assistant you interact with. Along the way you'll meet the four-property framework that organizes the rest of the course."
+          },
+          {
+            "id": "section-2",
+            "title": "Next Token Prediction",
+            "lessonCount": 2,
+            "description": "Every answer an AI gives is built one token at a time, by predicting what should come next. This section shows what that means in practice: why the model is excellent at well-worn paths like summarizing or reformatting, why it can produce things that sound true but aren't, and how to recognize when a task is pushing into territory where prediction alone isn't enough."
+          },
+          {
+            "id": "section-3",
+            "title": "Knowledge",
+            "lessonCount": 2,
+            "description": "A model knows what was in its training data — frequently, recently, and consistently. This section unpacks what that implies: it's strong on mainstream topics and popular languages, weaker on anything rare, recent, niche, or contested. You'll practice judging where a question sits on that spectrum, so you know when to trust the answer and when to bring your own sources."
+          },
+          {
+            "id": "section-4",
+            "title": "Working Memory",
+            "lessonCount": 2,
+            "description": "The context window is the model's working memory: everything it can pay attention to right now, and nothing else. This section covers what fits, what quietly falls off the edge, why attention isn't uniform across a long document, and why a fresh session doesn't remember the last one. You'll learn to size up a task against the window before you start, instead of discovering the limit mid-conversation."
+          },
+          {
+            "id": "section-5",
+            "title": "Steerability",
+            "lessonCount": 2,
+            "description": "Your instructions are how you steer — but not all instructions land equally. Short, concrete, verifiable asks ('respond as a table', 'under 100 words') work reliably; long reasoning chains, abstract requests, and demands for native precision are where steering starts to slip. This section helps you tell the difference and rewrite a wobbly instruction into one the model can actually follow."
+          },
+          {
+            "id": "section-6",
+            "title": "Putting it all together and next steps",
+            "lessonCount": 2,
+            "description": "Real tasks rarely test one property at a time. A long contract review strains working memory while reaching past the model's knowledge; a vague creative brief tests steerability right where next-token prediction wants to fill in something plausible. This section shows you how the four properties collide, and gives you a diagnostic for any unexpected output: name which property is in play, place the task on its spectrum, and apply a targeted fix instead of just trying again."
+          }
+        ]
+      },
+      "de": {
+        "title": "KI-Fähigkeiten und Einschränkungen",
+        "subtitle": "Ein Einführungskurs darüber, wie KI funktioniert",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Erste Schritte",
+            "description": "Das Wort 'KI' deckt ein weites Feld ab. Dieser Abschnitt grenzt es auf die Art von System ein, mit der Sie tatsächlich arbeiten werden — große Sprachmodelle — und erklärt, wie zwei Trainingsphasen, Vortraining und Feinabstimmung, einen rohen Textprediktor in den hilfreichen Assistenten verwandeln, mit dem Sie interagieren. Dabei lernen Sie das Vier-Eigenschaften-Framework kennen, das den Rest des Kurses strukturiert.",
+            "lessonCount": 3
+          },
+          {
+            "id": "section-2",
+            "title": "Vorhersage des nächsten Tokens",
+            "description": "Jede Antwort, die eine KI gibt, wird Token für Token aufgebaut, indem vorhergesagt wird, was als nächstes kommen soll. Dieser Abschnitt zeigt, was das in der Praxis bedeutet: warum das Modell bei vertrauten Aufgaben wie Zusammenfassen oder Umformatieren hervorragend ist, warum es Dinge produzieren kann, die wahr klingen, es aber nicht sind, und wie man erkennt, wann eine Aufgabe in Bereiche vordringt, in denen Vorhersage allein nicht ausreicht.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-3",
+            "title": "Wissen",
+            "description": "Ein Modell kennt das, was in seinen Trainingsdaten enthalten war — häufig, aktuell und konsistent. Dieser Abschnitt erläutert, was das bedeutet: Es ist stark bei gängigen Themen und verbreiteten Sprachen, schwächer bei allem Seltenen, Aktuellen, Nischenhaften oder Umstrittenen. Sie üben einzuschätzen, wo eine Frage auf diesem Spektrum liegt, damit Sie wissen, wann Sie der Antwort vertrauen können und wann Sie eigene Quellen hinzuziehen sollten.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-4",
+            "title": "Arbeitsgedächtnis",
+            "description": "Das Kontextfenster ist das Arbeitsgedächtnis des Modells: alles, worauf es gerade achten kann, und nichts weiter. Dieser Abschnitt behandelt, was hineinpasst, was stillschweigend am Rand verloren geht, warum die Aufmerksamkeit über ein langes Dokument nicht gleichmäßig verteilt ist, und warum eine neue Sitzung sich nicht an die letzte erinnert. Sie lernen, eine Aufgabe vor Beginn gegen das Fenster abzuwägen, anstatt die Grenze mitten im Gespräch zu entdecken.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-5",
+            "title": "Steuerbarkeit",
+            "description": "Ihre Anweisungen sind das Mittel zur Steuerung — aber nicht alle Anweisungen kommen gleich an. Kurze, konkrete, überprüfbare Anfragen ('als Tabelle antworten', 'unter 100 Wörtern') funktionieren zuverlässig; lange Argumentationsketten, abstrakte Anfragen und Forderungen nach muttersprachlicher Präzision sind Bereiche, in denen die Steuerung ins Wanken gerät. Dieser Abschnitt hilft Ihnen, den Unterschied zu erkennen und eine wackelige Anweisung in eine umzuschreiben, der das Modell tatsächlich folgen kann.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-6",
+            "title": "Alles zusammenführen und nächste Schritte",
+            "description": "Echte Aufgaben testen selten nur eine Eigenschaft auf einmal. Eine lange Vertragsprüfung belastet das Arbeitsgedächtnis und geht gleichzeitig über das Wissen des Modells hinaus; ein vages kreatives Briefing testet die Steuerbarkeit genau dort, wo die Nächste-Token-Vorhersage etwas Plausibles einfügen möchte. Dieser Abschnitt zeigt Ihnen, wie die vier Eigenschaften aufeinanderprallen, und gibt Ihnen ein Diagnosewerkzeug für unerwartete Ausgaben: Benennen Sie, welche Eigenschaft im Spiel ist, ordnen Sie die Aufgabe in ihr Spektrum ein, und wenden Sie eine gezielte Lösung an, anstatt es einfach erneut zu versuchen.",
+            "lessonCount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-fluency-for-small-businesses",
+      "path": "/ai-fluency-for-small-businesses",
+      "link": "https://anthropic.skilljar.com/ai-fluency-for-small-businesses",
+      "stats": {
+        "lectureCount": 9,
+        "videoHours": 0.9,
+        "quizCount": 1
+      },
+      "en": {
+        "title": "AI Fluency for Small Businesses",
+        "subtitle": "This course empowers small businesses to develop AI fluency in order to increase organizational impact and efficiency while staying true to their mission and values.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Introduction and the AI Fluency framework",
+            "lessonCount": 2,
+            "description": "Define AI Fluency and learn the four interconnected competencies—Delegation, Description, Discernment, and Diligence—that ground every productive AI collaboration in your business. You'll articulate your values, goals, and constraints so every future AI interaction starts from the right context."
+          },
+          {
+            "id": "section-2",
+            "title": "How AI works",
+            "lessonCount": 2,
+            "description": "Build a working mental model of what today's AI can and can't do reliably, and explore hands-on with an interactive next-token simulator so you understand why those limits matter for how you put it to work in your business."
+          },
+          {
+            "id": "section-3",
+            "title": "Using AI in practice",
+            "lessonCount": 2,
+            "description": "Apply the Description-Discernment loop to real research and the Delegation-Diligence loop to working with customer data—practicing context-rich prompting, critical evaluation, and responsible data handling on the kinds of tasks you face every day."
+          },
+          {
+            "id": "section-4",
+            "title": "Putting it all together",
+            "lessonCount": 3,
+            "description": "Bring all four dimensions of the 4D Framework together to build a repeatable AI-augmented workflow and a short, honest AI use policy that fits your business and your team—then plan your next steps and earn your certificate of completion."
+          }
+        ]
+      },
+      "de": {
+        "title": "KI-Kompetenz für kleine Unternehmen",
+        "subtitle": "Dieser Kurs befähigt kleine Unternehmen, KI-Kompetenz zu entwickeln, um die organisatorische Wirkung und Effizienz zu steigern und dabei ihrer Mission und ihren Werten treu zu bleiben.",
+        "sections": [
+          {
+            "id": "section-1",
+            "title": "Einführung und das KI-Kompetenz-Framework",
+            "description": "Definieren Sie KI-Kompetenz und lernen Sie die vier miteinander verbundenen Kompetenzen – Delegation, Beschreibung, Unterscheidungsvermögen und Sorgfalt – kennen, die jede produktive KI-Zusammenarbeit in Ihrem Unternehmen fundieren. Sie werden Ihre Werte, Ziele und Rahmenbedingungen formulieren, damit jede zukünftige KI-Interaktion im richtigen Kontext beginnt.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-2",
+            "title": "Wie KI funktioniert",
+            "description": "Entwickeln Sie ein praktisches mentales Modell dessen, was die heutige KI zuverlässig kann und was nicht, und erkunden Sie interaktiv einen Next-Token-Simulator, damit Sie verstehen, warum diese Grenzen für den Einsatz in Ihrem Unternehmen wichtig sind.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-3",
+            "title": "KI in der Praxis einsetzen",
+            "description": "Wenden Sie die Beschreibungs-Unterscheidungs-Schleife auf echte Recherchen und die Delegations-Sorgfalts-Schleife auf die Arbeit mit Kundendaten an – und üben Sie dabei kontextreiches Prompting, kritische Bewertung und verantwortungsvollen Umgang mit Daten bei den Aufgaben, die Sie täglich bewältigen.",
+            "lessonCount": 2
+          },
+          {
+            "id": "section-4",
+            "title": "Alles zusammenführen",
+            "description": "Bringen Sie alle vier Dimensionen des 4D-Frameworks zusammen, um einen wiederholbaren KI-gestützten Arbeitsablauf und eine kurze, ehrliche KI-Nutzungsrichtlinie zu erstellen, die zu Ihrem Unternehmen und Ihrem Team passt – und planen Sie dann Ihre nächsten Schritte und erwerben Sie Ihr Abschlusszertifikat.",
+            "lessonCount": 3
+          }
+        ]
+      }
+    }
+  ]
+}
