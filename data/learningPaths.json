@@ -1,0 +1,806 @@
+{
+  "_notes": [
+    "Learning paths mapping the Anthropic course catalog to roles and experience levels.",
+    "priority: 'required' = essential for the path goal; 'recommended' = strongly advised; 'optional' = enhances learning but not critical.",
+    "estimatedHours values come from videoHours in courseDetails.json where available. Entries with hoursEstimated:true are rough estimates for courses without videoHours data (claude-101: 1.0h, introduction-to-agent-skills: 0.5h, introduction-to-subagents: 0.35h).",
+    "totalHoursRequired counts only 'required' courses. totalHoursAll includes required + recommended + optional.",
+    "Course IDs reference courseDetails.json and courseOverview.json.",
+    "The two featured paths (claude-code-getting-started and claude-code-power-user) are the highest-priority paths."
+  ],
+  "learningPaths": [
+    {
+      "id": "claude-code-getting-started",
+      "title": "Claude Code: Getting Started",
+      "featured": true,
+      "description": "Go from zero to productive with Claude Code in your daily development workflow. Covers the agentic loop, installation across all environments, approval modes, daily Explore → Plan → Code → Commit workflows, and the customization basics that make Claude Code fit your team.",
+      "targetAudience": ["software developers", "DevOps engineers", "technical writers", "anyone who writes code"],
+      "level": "beginner",
+      "totalHoursRequired": 1.5,
+      "totalHoursAll": 5.6,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "AI Foundations",
+          "description": "Optional but recommended background on how large language models work — helps you reason about Claude Code's behavior and limits before writing your first prompt.",
+          "courses": [
+            {
+              "courseId": "ai-capabilities-and-limitations",
+              "title": "AI Capabilities and Limitations",
+              "priority": "recommended",
+              "rationale": "Builds a mental model of what AI can and cannot do reliably, so you can diagnose unexpected Claude Code behavior instead of guessing.",
+              "estimatedHours": 0.25,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "claude-101",
+              "title": "Claude 101",
+              "priority": "recommended",
+              "rationale": "Familiarizes you with Claude's interface, projects, artifacts, and skills — features that carry over to and inform how you use Claude Code.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": true
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "Core Claude Code",
+          "description": "The essential starting point: understand the agentic loop, get Claude Code running in your environment, and learn the daily development workflow.",
+          "courses": [
+            {
+              "courseId": "claude-code-101",
+              "title": "Claude Code 101",
+              "priority": "required",
+              "rationale": "The primary introduction to Claude Code — covers the agentic loop, installation across all environments (terminal, VS Code, JetBrains, Claude Desktop, web), approval modes, context management, and customization fundamentals.",
+              "estimatedHours": 1.5,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "Practical Workflows",
+          "description": "Apply Claude Code to real development tasks and see advanced features like MCP servers and GitHub integration in action.",
+          "courses": [
+            {
+              "courseId": "claude-code-in-action",
+              "title": "Claude Code in Action",
+              "priority": "recommended",
+              "rationale": "Practical walkthrough that reinforces and extends claude-code-101 with real-world workflow examples, hook implementations, and MCP/GitHub integrations.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 4,
+          "title": "Customization & Advanced Features",
+          "description": "Unlock Claude Code's full potential: build reusable skills, delegate to subagents, and wire in external tools via MCP.",
+          "courses": [
+            {
+              "courseId": "introduction-to-agent-skills",
+              "title": "Introduction to Agent Skills",
+              "priority": "optional",
+              "rationale": "Teaches you to build reusable markdown-based Skills that Claude Code applies automatically — reduces repetitive prompting for team-wide conventions.",
+              "estimatedHours": 0.5,
+              "hoursEstimated": true
+            },
+            {
+              "courseId": "introduction-to-subagents",
+              "title": "Introduction to Subagents",
+              "priority": "optional",
+              "rationale": "Shows how to use subagents to delegate tasks and manage context in long or complex Claude Code sessions.",
+              "estimatedHours": 0.35,
+              "hoursEstimated": true
+            },
+            {
+              "courseId": "introduction-to-model-context-protocol",
+              "title": "Introduction to Model Context Protocol",
+              "priority": "optional",
+              "rationale": "Enables connecting Claude Code to external tools and data sources via MCP servers — essential for teams that want to integrate Claude into existing toolchains.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claude-code-power-user",
+      "title": "Claude Code: Power User & Customization",
+      "featured": true,
+      "description": "For developers already using Claude Code who want to go deeper: build and share Skills, design subagent workflows, and master MCP to connect Claude to any external system.",
+      "prerequisite": "claude-code-getting-started",
+      "targetAudience": ["software developers", "DevOps engineers", "platform engineers", "team leads", "anyone who completed claude-code-getting-started"],
+      "level": "intermediate",
+      "totalHoursRequired": 1.85,
+      "totalHoursAll": 11.05,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Skills & Subagents",
+          "description": "Build reusable Skills that encode your team's conventions, and delegate complex tasks to purpose-built subagents.",
+          "courses": [
+            {
+              "courseId": "introduction-to-agent-skills",
+              "title": "Introduction to Agent Skills",
+              "priority": "required",
+              "rationale": "Core feature for teams: encode coding standards, review checklists, and workflow steps as Skills that activate automatically — eliminates repetitive prompting.",
+              "estimatedHours": 0.5,
+              "hoursEstimated": true
+            },
+            {
+              "courseId": "introduction-to-subagents",
+              "title": "Introduction to Subagents",
+              "priority": "required",
+              "rationale": "Unlocks parallel work and clean context management for large or multi-phase tasks — keeps the main conversation focused.",
+              "estimatedHours": 0.35,
+              "hoursEstimated": true
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "MCP Integration",
+          "description": "Connect Claude Code to databases, APIs, file systems, and internal tools using the Model Context Protocol.",
+          "courses": [
+            {
+              "courseId": "introduction-to-model-context-protocol",
+              "title": "Introduction to Model Context Protocol",
+              "priority": "required",
+              "rationale": "Foundation for wiring external tools into Claude Code — tools, resources, and prompts primitives cover any integration scenario.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "model-context-protocol-advanced-topics",
+              "title": "Model Context Protocol: Advanced Topics",
+              "priority": "recommended",
+              "rationale": "Covers sampling, progress notifications, file access roots, and transport mechanisms needed for production-grade MCP servers.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "Deep Dive: API & Agent Architectures",
+          "description": "Optional: build comprehensive understanding of the Claude API, agentic architectures, RAG, and Computer Use by taking the full developer course.",
+          "courses": [
+            {
+              "courseId": "claude-with-the-anthropic-api",
+              "title": "Building with the Claude API",
+              "priority": "optional",
+              "rationale": "Provides deep API knowledge (RAG, tool use, agent patterns, Computer Use) that informs how you design advanced Claude Code integrations and workflows.",
+              "estimatedHours": 8.1,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-claude-user",
+      "title": "Everyday Claude: For Knowledge Workers",
+      "featured": false,
+      "description": "For professionals who want to use Claude — chat, projects, Cowork, and skills — to be more productive without writing code. Covers the 4D Framework for working with AI plus hands-on Claude and Cowork skills.",
+      "targetAudience": ["knowledge workers", "business analysts", "project managers", "marketing professionals", "operations staff", "researchers"],
+      "level": "beginner",
+      "totalHoursRequired": 1.5,
+      "totalHoursAll": 2.85,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Understanding AI",
+          "description": "Build a working model of how AI actually works so you can set appropriate expectations and diagnose outputs critically.",
+          "courses": [
+            {
+              "courseId": "ai-capabilities-and-limitations",
+              "title": "AI Capabilities and Limitations",
+              "priority": "recommended",
+              "rationale": "Short, practical course that prevents over-reliance and helps you recognize when to verify AI outputs.",
+              "estimatedHours": 0.25,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "ai-fluency-framework-foundations",
+              "title": "AI Fluency: Framework & Foundations",
+              "priority": "recommended",
+              "rationale": "The 4D Framework (Delegation, Description, Discernment, Diligence) gives you a systematic, transferable approach to collaborating with AI across all tasks.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "Core Claude",
+          "description": "Get hands-on with Claude's key features for everyday work: chat, projects, artifacts, skills, integrations, and research mode.",
+          "courses": [
+            {
+              "courseId": "claude-101",
+              "title": "Claude 101",
+              "priority": "required",
+              "rationale": "Covers everything a non-developer needs to use Claude effectively: first conversation, getting better results, projects, artifacts, connecting tools, and use cases by role.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": true
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "Multi-step Work with Cowork",
+          "description": "Use Claude Cowork to operate on your real files, integrate with Office apps, and run multi-step workflows beyond single-turn chat.",
+          "courses": [
+            {
+              "courseId": "introduction-to-claude-cowork",
+              "title": "Introduction to Claude Cowork",
+              "priority": "required",
+              "rationale": "Extends Claude to real file and project work with Chrome and Office (Word, Excel, PowerPoint, Outlook) integrations — turns Claude from a chat tool into a working assistant on your actual documents.",
+              "estimatedHours": 0.5,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "api-developer",
+      "title": "Building with the Claude API",
+      "featured": false,
+      "description": "For developers building applications, pipelines, or agents directly on the Anthropic API. Covers everything from basic API calls to RAG, tool use, MCP, Claude Code integration, and autonomous agent architectures.",
+      "targetAudience": ["software engineers", "ML engineers", "AI application developers", "backend developers", "data scientists building AI systems"],
+      "level": "intermediate",
+      "totalHoursRequired": 8.1,
+      "totalHoursAll": 11.45,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Prerequisites",
+          "description": "Recommended background before diving into the API course.",
+          "courses": [
+            {
+              "courseId": "ai-capabilities-and-limitations",
+              "title": "AI Capabilities and Limitations",
+              "priority": "recommended",
+              "rationale": "Understanding model limits helps you write better prompts, design more robust error handling, and set appropriate system boundaries.",
+              "estimatedHours": 0.25,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "claude-101",
+              "title": "Claude 101",
+              "priority": "optional",
+              "rationale": "Useful orientation on Claude's surface-level features and capabilities before you start working with the raw API.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": true
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "Core API Development",
+          "description": "The comprehensive API course: authentication, prompt engineering, tool use, RAG, MCP, Claude Code & Computer Use, and agent architectures.",
+          "courses": [
+            {
+              "courseId": "claude-with-the-anthropic-api",
+              "title": "Building with the Claude API",
+              "priority": "required",
+              "rationale": "The definitive course for API developers — 84 lectures (8h+) covering the full spectrum from basic API calls to production agent systems.",
+              "estimatedHours": 8.1,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "MCP Deep Dive",
+          "description": "Build and operate production-grade MCP servers for connecting Claude to external systems — goes deeper than the API course's MCP section.",
+          "courses": [
+            {
+              "courseId": "introduction-to-model-context-protocol",
+              "title": "Introduction to Model Context Protocol",
+              "priority": "recommended",
+              "rationale": "Dedicated MCP course with hands-on server and client implementation — ideal if you're building MCP servers as a primary deliverable.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "model-context-protocol-advanced-topics",
+              "title": "Model Context Protocol: Advanced Topics",
+              "priority": "optional",
+              "rationale": "Production MCP patterns: sampling, notifications, file roots, and transport trade-offs — for MCP server authors deploying at scale.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "api-developer-aws",
+      "title": "Building with Claude on Amazon Bedrock",
+      "featured": false,
+      "description": "For developers building on AWS who want to use Claude through Amazon Bedrock. Covers the same full curriculum as the direct API path — authentication, prompting, tool use, RAG, MCP, Claude Code — but via Bedrock's APIs, SDK, and console.",
+      "targetAudience": ["AWS developers", "cloud engineers", "ML engineers on AWS", "solutions architects"],
+      "level": "intermediate",
+      "totalHoursRequired": 8.0,
+      "totalHoursAll": 10.35,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Prerequisites",
+          "description": "Recommended background before the Bedrock course.",
+          "courses": [
+            {
+              "courseId": "ai-capabilities-and-limitations",
+              "title": "AI Capabilities and Limitations",
+              "priority": "recommended",
+              "rationale": "Foundation for understanding model behavior in production systems built on Bedrock.",
+              "estimatedHours": 0.25,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "Claude on Amazon Bedrock",
+          "description": "Full-spectrum development course using the Amazon Bedrock SDK and console.",
+          "courses": [
+            {
+              "courseId": "claude-in-amazon-bedrock",
+              "title": "Claude with Amazon Bedrock",
+              "priority": "required",
+              "rationale": "85-lecture, 8-hour course covering all major topics from basic API calls through agents and workflows using Bedrock's APIs — AWS accreditation-level content.",
+              "estimatedHours": 8.0,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "MCP Integration",
+          "description": "Extend your Bedrock applications with MCP server capabilities for external tool connectivity.",
+          "courses": [
+            {
+              "courseId": "introduction-to-model-context-protocol",
+              "title": "Introduction to Model Context Protocol",
+              "priority": "recommended",
+              "rationale": "MCP is platform-agnostic — the skills transfer directly to Bedrock-based applications for external tool and data source integration.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "model-context-protocol-advanced-topics",
+              "title": "Model Context Protocol: Advanced Topics",
+              "priority": "optional",
+              "rationale": "Advanced MCP patterns for production deployments alongside Bedrock.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "api-developer-gcp",
+      "title": "Building with Claude on Google Cloud Vertex AI",
+      "featured": false,
+      "description": "For developers building on Google Cloud who want to use Claude through Vertex AI. Covers the full development curriculum — prompting, tool use, RAG, MCP, agents — using Vertex AI's APIs and tooling.",
+      "targetAudience": ["GCP developers", "cloud engineers", "ML engineers on GCP", "solutions architects"],
+      "level": "intermediate",
+      "totalHoursRequired": 8.0,
+      "totalHoursAll": 10.35,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "Prerequisites",
+          "description": "Recommended background before the Vertex AI course.",
+          "courses": [
+            {
+              "courseId": "ai-capabilities-and-limitations",
+              "title": "AI Capabilities and Limitations",
+              "priority": "recommended",
+              "rationale": "Foundation for understanding model behavior in production systems built on Vertex AI.",
+              "estimatedHours": 0.25,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "Claude on Vertex AI",
+          "description": "Full-spectrum development course using the Vertex AI SDK and console.",
+          "courses": [
+            {
+              "courseId": "claude-with-google-vertex",
+              "title": "Claude with Google Cloud's Vertex AI",
+              "priority": "required",
+              "rationale": "85-lecture, 8-hour course covering all major topics from basic API calls through agents and workflows using Google Cloud's Vertex AI.",
+              "estimatedHours": 8.0,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "MCP Integration",
+          "description": "Extend your Vertex AI applications with MCP server capabilities.",
+          "courses": [
+            {
+              "courseId": "introduction-to-model-context-protocol",
+              "title": "Introduction to Model Context Protocol",
+              "priority": "recommended",
+              "rationale": "MCP is platform-agnostic — integrates directly with Vertex AI-based applications for external tool and data access.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "model-context-protocol-advanced-topics",
+              "title": "Model Context Protocol: Advanced Topics",
+              "priority": "optional",
+              "rationale": "Advanced MCP patterns for production deployments alongside Vertex AI.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mcp-developer",
+      "title": "Building MCP Servers & Clients",
+      "featured": false,
+      "description": "For developers focused on building and deploying Model Context Protocol servers that connect AI systems to external tools, databases, and data sources. Assumes programming experience in Python.",
+      "targetAudience": ["backend developers", "platform engineers", "integration engineers", "API developers", "tooling engineers"],
+      "level": "intermediate",
+      "totalHoursRequired": 2.1,
+      "totalHoursAll": 11.7,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "MCP Foundations",
+          "description": "Build your first MCP server and client using the three core primitives: tools, resources, and prompts.",
+          "courses": [
+            {
+              "courseId": "introduction-to-model-context-protocol",
+              "title": "Introduction to Model Context Protocol",
+              "priority": "required",
+              "rationale": "The starting point — MCP architecture, Python SDK, server and client implementation, tools/resources/prompts primitives, and the built-in inspector for testing.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "Advanced MCP for Production",
+          "description": "Production-grade features: sampling, progress notifications, file system roots, and transport mechanisms.",
+          "courses": [
+            {
+              "courseId": "model-context-protocol-advanced-topics",
+              "title": "Model Context Protocol: Advanced Topics",
+              "priority": "required",
+              "rationale": "Covers the features needed for production servers: sampling (AI cost management), progress feedback for UX, secure file access with roots, and STDIO vs. StreamableHTTP trade-offs.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "API & Agent Context",
+          "description": "Optional: understand MCP in the full context of Claude API development, agent architectures, and real Claude Code usage patterns.",
+          "courses": [
+            {
+              "courseId": "claude-with-the-anthropic-api",
+              "title": "Building with the Claude API",
+              "priority": "optional",
+              "rationale": "The MCP section (section-6) and Agents section (section-8) give you the client-side perspective and production architecture patterns that MCP servers must support.",
+              "estimatedHours": 8.1,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "claude-code-101",
+              "title": "Claude Code 101",
+              "priority": "optional",
+              "rationale": "Claude Code consumes MCP servers — understanding the developer's end-to-end experience helps you design better servers.",
+              "estimatedHours": 1.5,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "educator",
+      "title": "AI for Educators",
+      "featured": false,
+      "description": "For faculty, instructional designers, and educational leaders who want to integrate AI into teaching practice, course design, assessment, and institutional strategy.",
+      "targetAudience": ["faculty", "instructional designers", "educational leaders", "curriculum developers", "academic administrators"],
+      "level": "beginner",
+      "totalHoursRequired": 1.0,
+      "totalHoursAll": 3.35,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "AI Literacy",
+          "description": "Build the foundational knowledge needed to make informed decisions about AI in educational settings and to teach it credibly.",
+          "courses": [
+            {
+              "courseId": "ai-capabilities-and-limitations",
+              "title": "AI Capabilities and Limitations",
+              "priority": "recommended",
+              "rationale": "Essential for teaching AI literacy — you need to understand what AI can and cannot do reliably before you design assessments around it or teach students to use it.",
+              "estimatedHours": 0.25,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "ai-fluency-framework-foundations",
+              "title": "AI Fluency: Framework & Foundations",
+              "priority": "recommended",
+              "rationale": "The 4D Framework is the pedagogical backbone of all AI Fluency educator courses — understanding it deeply is prerequisite to teaching or applying it.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "Claude Basics",
+          "description": "Get first-hand experience with Claude so you can guide students, troubleshoot live, and design realistic assignments.",
+          "courses": [
+            {
+              "courseId": "claude-101",
+              "title": "Claude 101",
+              "priority": "recommended",
+              "rationale": "Direct experience with the tool students and faculty will use — enables confident demonstration and context-aware guidance.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": true
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "Educator-specific AI Fluency",
+          "description": "Apply the AI Fluency framework to your own teaching practice and institutional context.",
+          "courses": [
+            {
+              "courseId": "ai-fluency-for-educators",
+              "title": "AI Fluency for Educators",
+              "priority": "required",
+              "rationale": "Directly addresses faculty and instructional designers: applying the 4D Framework to course design, learning materials, and institution strategy.",
+              "estimatedHours": 0.4,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 4,
+          "title": "Teaching AI Fluency",
+          "description": "Go beyond using AI yourself — learn to scaffold, teach, and assess AI Fluency skills in your courses and institution.",
+          "courses": [
+            {
+              "courseId": "teaching-ai-fluency",
+              "title": "Teaching AI Fluency",
+              "priority": "required",
+              "rationale": "Covers scaffolding student AI skills through the 4D Framework, designing AI-integrated assessments, and building institutional capacity for responsible AI use across disciplines.",
+              "estimatedHours": 0.6,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "student",
+      "title": "AI Fluency for Students",
+      "featured": false,
+      "description": "For students in higher education who want to develop responsible AI collaboration skills that enhance academic success, research, and career readiness.",
+      "targetAudience": ["undergraduate students", "graduate students", "adult learners", "continuing education"],
+      "level": "beginner",
+      "totalHoursRequired": 0.5,
+      "totalHoursAll": 2.85,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "How AI Works",
+          "description": "Understand the technology before you use it — especially relevant for academic integrity reasoning.",
+          "courses": [
+            {
+              "courseId": "ai-capabilities-and-limitations",
+              "title": "AI Capabilities and Limitations",
+              "priority": "recommended",
+              "rationale": "Gives you the mental model to use AI accurately rather than as a magic box, and supports informed thinking about academic integrity.",
+              "estimatedHours": 0.25,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "AI Fluency Framework",
+          "description": "Learn the principled framework for working with AI effectively and responsibly across all your subjects.",
+          "courses": [
+            {
+              "courseId": "ai-fluency-framework-foundations",
+              "title": "AI Fluency: Framework & Foundations",
+              "priority": "recommended",
+              "rationale": "The 4D Framework applies across all subjects and tasks — this is transferable skill-building, not just Claude-specific knowledge.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "ai-fluency-for-students",
+              "title": "AI Fluency for Students",
+              "priority": "required",
+              "rationale": "Student-specific application of the 4D Framework to learning, research, and career planning with concrete examples from academic contexts.",
+              "estimatedHours": 0.5,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "Using Claude",
+          "description": "Get hands-on with Claude for study, research, and project work.",
+          "courses": [
+            {
+              "courseId": "claude-101",
+              "title": "Claude 101",
+              "priority": "recommended",
+              "rationale": "Practical Claude skills — projects, research mode, artifacts — directly applicable to study and research workflows.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nonprofit-professional",
+      "title": "AI Fluency for Nonprofit Professionals",
+      "featured": false,
+      "description": "For nonprofit staff who want to harness AI to increase organizational impact and efficiency while staying mission-aligned and responsible about data and values.",
+      "targetAudience": ["nonprofit staff", "program managers", "grant writers", "communications teams", "executive directors"],
+      "level": "beginner",
+      "totalHoursRequired": 0.9,
+      "totalHoursAll": 3.75,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "AI Foundations",
+          "description": "Build enough AI literacy to use it responsibly in mission-driven, high-stakes contexts.",
+          "courses": [
+            {
+              "courseId": "ai-capabilities-and-limitations",
+              "title": "AI Capabilities and Limitations",
+              "priority": "recommended",
+              "rationale": "Helps you set realistic expectations and maintain appropriate skepticism about AI outputs where accuracy and trust matter for your mission.",
+              "estimatedHours": 0.25,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "ai-fluency-framework-foundations",
+              "title": "AI Fluency: Framework & Foundations",
+              "priority": "recommended",
+              "rationale": "Provides the 4D Framework that underpins the nonprofit-specific course — taking this first gives you deeper grounding and transfers to any AI tool.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "Nonprofit-specific AI Fluency",
+          "description": "Apply AI fluency principles to nonprofit workflows, stakeholder communication, data handling, and organizational strategy.",
+          "courses": [
+            {
+              "courseId": "ai-fluency-for-nonprofits",
+              "title": "AI Fluency for Nonprofits",
+              "priority": "required",
+              "rationale": "Addresses nonprofit-specific contexts: mission alignment, data privacy, grant writing, stakeholder communication, and building a responsible AI use policy.",
+              "estimatedHours": 0.9,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "Practical Claude",
+          "description": "Apply Claude directly to your day-to-day work tasks.",
+          "courses": [
+            {
+              "courseId": "claude-101",
+              "title": "Claude 101",
+              "priority": "recommended",
+              "rationale": "Hands-on Claude skills for everyday work tasks — the direct application of the AI Fluency skills you've built.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": true
+            },
+            {
+              "courseId": "introduction-to-claude-cowork",
+              "title": "Introduction to Claude Cowork",
+              "priority": "optional",
+              "rationale": "For nonprofits that want Claude to work directly with documents and run multi-step workflows in existing Office and web tools.",
+              "estimatedHours": 0.5,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "small-business",
+      "title": "AI Fluency for Small Business Owners",
+      "featured": false,
+      "description": "For small business owners and teams who want to use AI to run their business more efficiently while maintaining the values and personal touch that differentiate small businesses.",
+      "targetAudience": ["small business owners", "entrepreneurs", "small business teams", "freelancers"],
+      "level": "beginner",
+      "totalHoursRequired": 0.9,
+      "totalHoursAll": 3.75,
+      "stages": [
+        {
+          "stage": 1,
+          "title": "AI Foundations",
+          "description": "Build enough AI literacy to evaluate and use AI tools confidently in a business context.",
+          "courses": [
+            {
+              "courseId": "ai-capabilities-and-limitations",
+              "title": "AI Capabilities and Limitations",
+              "priority": "recommended",
+              "rationale": "Helps you evaluate AI tool claims critically and set realistic expectations before investing time and resources.",
+              "estimatedHours": 0.25,
+              "hoursEstimated": false
+            },
+            {
+              "courseId": "ai-fluency-framework-foundations",
+              "title": "AI Fluency: Framework & Foundations",
+              "priority": "recommended",
+              "rationale": "The 4D Framework applies to any AI tool and any business task — transferable skill-building that outlasts any single tool.",
+              "estimatedHours": 1.1,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "title": "Small Business AI Fluency",
+          "description": "Apply AI fluency to business-specific workflows: customer communication, operations, data handling, and building an AI policy.",
+          "courses": [
+            {
+              "courseId": "ai-fluency-for-small-businesses",
+              "title": "AI Fluency for Small Businesses",
+              "priority": "required",
+              "rationale": "Directly addresses small business contexts: customer data, AI-augmented workflows, and creating a practical AI use policy for your team.",
+              "estimatedHours": 0.9,
+              "hoursEstimated": false
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "title": "Practical Claude",
+          "description": "Apply Claude directly to your business tasks and daily operations.",
+          "courses": [
+            {
+              "courseId": "claude-101",
+              "title": "Claude 101",
+              "priority": "recommended",
+              "rationale": "Practical Claude skills for everyday business tasks — the direct, hands-on application of the framework learned in stage 2.",
+              "estimatedHours": 1.0,
+              "hoursEstimated": true
+            },
+            {
+              "courseId": "introduction-to-claude-cowork",
+              "title": "Introduction to Claude Cowork",
+              "priority": "optional",
+              "rationale": "Enables Claude to work directly with your files and documents, extending its usefulness into daily operations and office tools.",
+              "estimatedHours": 0.5,
+              "hoursEstimated": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
