@@ -1,8 +1,8 @@
 # Anthropic & Claude Code Courses
 
-To pick your best-fit learning path, check [Anthropic Course Learning Paths](data/learningPaths.md).
+To pick your best-fit learning path, check the site 🧠⚡ **[Anthropic Course Learning Paths](data/learningPaths.md)** ⚡🧠.
 
-## Course Overview
+## Anthropic Course Overview
 
 ### Claude Code
 
@@ -89,7 +89,7 @@ To pick your best-fit learning path, check [Anthropic Course Learning Paths](dat
 ## What I did in this repository (Changelog)
 
 - This is my second try with **Claude Code**, first try was a success — generating an **OpenAPI** file for an **n8n backend** I know inside out.
-- My **objective** was to have a nice **overview of Anthropic learning resources** containing videos. It's helpful to have experts explaining basic concepts and give some insights. The focus was originally on Claude Code (not just Claude or other LLMs or integrations).
+- My **objective** was to have a nice **overview of Anthropic learning resources** (<https://www.anthropic.com/learn>) containing videos. It's helpful to have experts explaining basic concepts and give some insights. The focus was originally on Claude Code (not just Claude or other LLMs or integrations).
 - That time (2026-05-19), I discovered **18 (video) courses** listed at Anthropic Academy and inside **Skilljar**.
 - I discovered some courses on **Skilljar** (mostly with XMLish overview, one time with Markdown and embedded HTML). Also, some courses are on **YouTube**, some on account anthropic-ai and some on account claude. Some categorized with a playlist, some with a course, some without any. The data is insinde directory [sources](sources).
 - To get an **overview of courses**, I used **n8n** and a LLM to extract title, link and description of the individual courses. The n8n workflow is inside [n8n-workflows](n8n-workflows).
@@ -103,7 +103,7 @@ To pick your best-fit learning path, check [Anthropic Course Learning Paths](dat
         - **data/courseDetails.json** — 18 courses, each with:                                                                                                                                                                 
             - stats (lecture count, video hours, quiz count)                                                                                                                                                                 
             - en — title, subtitle, sections with titles/descriptions/lesson counts                                                                                                                                          
-            - de — same structure, fully translated
+            - de — same structure, fully translated <- Could also be done afterwards ...
         - scripts/
         - Claude Code: "**3 courses** (claude-101, introduction-to-agent-skills, introduction-to-subagents) had **no embedded section data** on Skilljar so they got title/description only. The new ai-fluency-for-pk12-educators course that
   exists on Skilljar but wasn't in your overview is also not included — worth adding to courseOverview.json if you want it."
@@ -130,6 +130,10 @@ To pick your best-fit learning path, check [Anthropic Course Learning Paths](dat
 - I: have you **included the contets in ./sources?** If not, do so for your own generated or extended md files.
     - I: revert the changes in sources/learningPaths.notes.md.txt. If you decide to, include the contents there into your own created md files or modified ones
     - CC: Done. The file is removed and nothing needed to be merged since it was an exact duplicate of data/learningPaths.md.
+- I: (at <https://gemini.google.com/>): what is the max promt length for nano banana?
+    - G: For the Nano Banana image generation tool, the prompt character limit is 10,000 characters.
+- I: (to myself): Planning to generate a nice ovwrview image
+
 ## Contact
 
 Adrian Wilke - adrian (at) [agnion.ai](https://www.agnion.ai)
