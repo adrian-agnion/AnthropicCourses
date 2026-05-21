@@ -123,12 +123,13 @@ To pick your best-fit learning path, check [Anthropic Course Learning Paths](dat
     - Note: Lots of unneccessary requests. Why did it not directly check the YouTube URLs on anthropic?
     - I, controlling: "Yes, **try to use less requests**. **there are** 3 videos already listed on the course overview. use that as a base and just get the basic data."
 - I (new claude session): Check the data in directory ./data. **I want learning paths** for different learing stages and roles. Highest priority: Someone wnats to learn and use Claude Code. Create learning paths on which courses to take   
-  to get familar with Claude Code and also other paths, e.g. handling Claude itself or using it as an educator. Create a new md file or json file or something better (maybe both?)  with data about how to start  
+  to get familar with Claude Code and also other paths, e.g. handling Claude itself or using it as an educator. Create a new md file or json file or something better (maybe both?)  with data about how to start
   at a learning level and go through different courses to get the required knowledge to reach a state to be able to use the Claude variants.
     - CC: data/learningPaths.json and data/learningPaths.md [...]
 - I: could you **sub-divide** the section "Course Overview" in the **README.md** into "Claude Code" and other sub-sections?
-
-
+- I: have you **included the contets in ./sources?** If not, do so for your own generated or extended md files.
+    - I: revert the changes in sources/learningPaths.notes.md.txt. If you decide to, include the contents there into your own created md files or modified ones
+    - CC: Done. The file is removed and nothing needed to be merged since it was an exact duplicate of data/learningPaths.md.
 ## Contact
 
 Adrian Wilke - adrian (at) [agnion.ai](https://www.agnion.ai)
