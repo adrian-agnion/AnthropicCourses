@@ -10,10 +10,10 @@ core_concepts: Agent Skills (reusable markdown), Subagents (parallel tasks, cont
 
 ## Image Generation Prompt
 
-Please create a 3D Minion. Its body color is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion believes it is a world-class orchestra conductor. It is not entirely wrong. Background: deep dark purple #170538 with faint glowing circuit-line texture. The scene is sophisticated chaos — everything is somehow working despite looking completely out of control.
+Please create a 3D Minion. Color of all Minions is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion believes it is a world-class orchestra conductor. It is not entirely wrong. Background: deep dark purple #170538 with faint glowing circuit-line texture. The scene is sophisticated chaos — everything is somehow working despite looking completely out of control.
 
 **The Stage:**
-A grand concert stage. The lavender Minion stands at a conductor's podium wearing a tiny tuxedo jacket over its eastern blue overalls and a miniature bow tie. It waves an oversized conductor's baton with enormous authority. The baton occasionally sparks with violet electricity.
+A grand concert stage in the middle of the picture. The lavender Minion stands at a conductor's podium wearing a tiny tuxedo jacket over its eastern blue overalls and a miniature bow tie. It waves an oversized conductor's baton with enormous authority. The baton occasionally sparks with violet electricity.
 
 **The Orchestra — Five Minion Sections:**
 
@@ -34,7 +34,7 @@ A Minion buried up to its waist in a stack of API documentation, only its goggle
 
 **The conductor Minion turns to face the audience and grins.** Everything behind it is technically correct. The baton reads: *"Eet conducts eetself."*
 
-**Style:** High-quality 3D Minion in the Illumination Studios style. Concert hall atmosphere with dramatic stage lighting. Each section glows its own color. Lavender skin with subsurface scattering, eastern blue overalls. Cartoon physics throughout — instruments replaced by tech props, music stands hold code printouts. Dark purple #170538 background with warm footlights at the stage edge.
+**Style:** High-quality 3D Minion in the Illumination Studios style. Concert hall atmosphere with dramatic stage lighting. Each section glows its own color. Lavender skin with subsurface scattering, eastern blue overalls. 3D Cartoon physics throughout — instruments replaced by tech props, music stands hold code printouts. Dark purple #170538 background with warm footlights at the stage edge.
 
 **Text overlay:** Two lines of bold clean sans-serif text centered at the bottom over a dark semi-transparent band:
 - Line 1 (small, wide letter-spacing): LEARNING PATH

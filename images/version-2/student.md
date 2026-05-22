@@ -8,7 +8,7 @@ core_concepts: 4D Framework for academic contexts, responsible AI collaboration,
 
 ## Image Generation Prompt
 
-Please create a 3D Minion. Its body color is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a university student at 2am trying to finish a research paper. It is not stressed — it has Claude. It is wearing a backwards baseball cap and has a miniature graduation cap balanced on top of the baseball cap, sliding off slowly. Background: deep dark purple #170538 suggesting a library after closing time, lit only by laptop glow and the faint shimmer of fluorescent lights.
+Please create a 3D Minion. Color of all Minions is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a university student at 2am trying to finish a research paper. It is not stressed — it has Claude. It is wearing a backwards baseball cap and has a miniature graduation cap balanced on top of the baseball cap, sliding off slowly. Background: deep dark purple #170538 suggesting a library after closing time, lit only by laptop glow and the faint shimmer of fluorescent lights.
 
 **The Library Desk (organized chaos):**
 
@@ -34,7 +34,7 @@ The backpack has fallen open, spilling its contents: four bananas (no textbooks)
 **On the wall behind the desk:**
 A poster reading *"ACADEMIC INTEGRITY MATTERS"* next to which the Minion has placed a handwritten sticky note: *"I always check da output. Always."*
 
-**Style:** High-quality 3D Minion in the Illumination Studios style. Late-night library atmosphere — cool blue laptop glow, warm yellow desk lamp. Lavender skin, eastern blue overalls, backwards cap + sliding graduation cap. Every prop is slightly too large for the Minion. Cartoon physics throughout. Dark purple #170538 background.
+**Style:** High-quality 3D Minion in the Illumination Studios style. Late-night library atmosphere — cool blue laptop glow, warm yellow desk lamp. Lavender skin, eastern blue overalls, backwards cap + sliding graduation cap. Every prop is slightly too large for the Minion. 3D Cartoon physics throughout. Dark purple #170538 background.
 
 **Text overlay:** Two lines of bold clean sans-serif text centered at the bottom over a dark semi-transparent band:
 - Line 1 (small, wide letter-spacing): LEARNING PATH

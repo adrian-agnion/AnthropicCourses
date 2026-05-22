@@ -1,16 +1,37 @@
 # Anthropic & Claude Code Courses
 
-This repository contains an overview of Claude courses and learning paths depending on your knowledge.
-Each person has another state of knowledge and therefore other learning requirements.
-Btw, if you're interested in creating requirements and AI transformation, you may want to check [ultraspec.ai](https://ultraspec.ai) & [agnion.ai](https://www.agnion.ai)!
+This repository contains two main contents:
 
-To pick your best-fit learning path, check the site 🧠⚡ **[Anthropic Course Learning Paths](data/learningPaths.md)** ⚡🧠.
+- **Anthropic Course Overview** (see below)  
+  A list of available courses, sorted by topic.
+- **Learning paths** (make a quick check if the topics fit your interests and start understanding that AI stuff)  
+  Recommendations on which course to have a look based on your interests.
+
+
+## Learning Paths: Quick Finder
+
+To pick your best-fit learning path, check the site 🧠⚡ **[Anthropic Course Learning Paths](anthropic-claude-code-coureses-learning-paths.md)** ⚡🧠.
+
+| I want to… | Start here |
+|---|---|
+| Use Claude Code as a developer | [**Claude Code**: Getting Started](anthropic-claude-code-coureses-learning-paths.md#1-claude-code-getting-started-) |
+| Go deeper with Claude Code (skills, subagents, MCP) | [Claude Code: Power User](anthropic-claude-code-coureses-learning-paths.md#2-claude-code-power-user-) |
+| Use Claude for everyday work (no coding) | [**Everyday Claude**: Knowledge Workers](anthropic-claude-code-coureses-learning-paths.md#3-everyday-claude-for-knowledge-workers) |
+| Build apps with the Anthropic API | [Building with the Claude API](anthropic-claude-code-coureses-learning-paths.md#4-building-with-the-claude-api) |
+| Build apps on AWS with Bedrock | [Claude on Amazon Bedrock](anthropic-claude-code-coureses-learning-paths.md#5-building-with-claude-on-amazon-bedrock) |
+| Build apps on Google Cloud | [Claude on Vertex AI](anthropic-claude-code-coureses-learning-paths.md#6-building-with-claude-on-google-cloud-vertex-ai) |
+| Build MCP servers and clients | [Building MCP Servers & Clients](anthropic-claude-code-coureses-learning-paths.md#7-building-mcp-servers--clients) |
+| Integrate AI into teaching practice | [AI for Educators](anthropic-claude-code-coureses-learning-paths.md#8-ai-for-educators) |
+| Use AI as a student | [AI Fluency for Students](anthropic-claude-code-coureses-learning-paths.md#9-ai-fluency-for-students) |
+| Use AI in a nonprofit | [AI Fluency for Nonprofits](anthropic-claude-code-coureses-learning-paths.md#10-ai-fluency-for-nonprofit-professionals) |
+| Use AI in a small business | [AI Fluency for Small Businesses](anthropic-claude-code-coureses-learning-paths.md#11-ai-fluency-for-small-business-owners) |
+
 
 ## Anthropic Course Overview
 
 ### Claude Code
 
-- **Claude Code 101**  
+- **Claude Code 101** 🔥  
   [https://anthropic.skilljar.com/claude-code-101](https://anthropic.skilljar.com/claude-code-101)  
   Learn how to use Claude Code effectively in your daily development workflow.
 - **Claude Code in Action**  
@@ -25,7 +46,7 @@ To pick your best-fit learning path, check the site 🧠⚡ **[Anthropic Course 
 
 ### Claude
 
-- **Claude 101**  
+- **Claude 101** ✨  
   [https://anthropic.skilljar.com/claude-101](https://anthropic.skilljar.com/claude-101)  
   Learn how to use Claude for everyday work tasks, understand core features, and explore resources for more advanced learning on other topics.
 - **Introduction to Claude Cowork**  
@@ -78,7 +99,7 @@ To pick your best-fit learning path, check the site 🧠⚡ **[Anthropic Course 
   This course empowers small businesses to develop AI fluency in order to increase organizational impact and efficiency while staying true to their mission and values.
 
 
-## Learning Resources
+## Anthropic Learning Resources
 
 - **Anthropic Courses**  
   [https://anthropic.skilljar.com](https://anthropic.skilljar.com)
@@ -90,6 +111,30 @@ To pick your best-fit learning path, check the site 🧠⚡ **[Anthropic Course 
   [https://www.youtube.com/@claude/playlists](https://www.youtube.com/@claude/playlists)
 
 
-## Contact
+## About
 
-Adrian Wilke - adrian (at) [agnion.ai](https://www.agnion.ai)
+Our team wanted to explore some extended usage of Claude Code.
+As I only played around with it a couple of times, I decided to use it to check the **best fitting Anthropic courses** for me to learn some concepts and have little hands-on sessions for the same purpose. (Always go for courses from experts really integrated to the topic development, if there is a chance.)
+This is the result of - don't know - one day of work overall and some additional private time on top to add some beauty glitter.
+Maybe it could be also helpful for others.
+Feel free to fork and enhance, like evolution goes.
+
+Currently, most of my **daily work** time goes into **n8n** workflow editing. E.g. deploying a complete n8n backend to other servers including workflow and credential ID rewriting. Some month ago, I also tested [recursion with n8n on Hanoi](https://n8n.io/workflows/8656-implement-recursive-algorithms-with-sub-workflows-towers-of-hanoi-demo/), also a bit nerdy stuff.
+n8n is a nice platform for rapid protoyping and automation processes, also not dependend on single LLMs.
+So maybe a good alternative if you don't want to depend on one LLM provider.
+
+If you could need some support in **requirements engineering** using agentic engineering (that's e.g. with AI, but in a controlled way, integrating company data), check [ultraspec.ai](https://ultraspec.ai). There is also a [requirements generation demo](https://try.ultraspec.ai/) (super limited version in terms of features).
+If you are interested into insurances, we can also help in **comparing insurance contracts**. A demo is here (this one in German): [insurance comparison](https://contract-bridge.agnion.ai).
+If you are more interested in **Cobol code** information extraction and migration, we also have developed some skills.
+Seems like everything is solved, are there any open work items?
+
+We're a small dynamic **company** based in Cologne, Germany.
+A couple of experts putting their experiences and knowledge into transformation of outdated processes, missing or incomplete or re-use of data and that stuff into AI-powered support agents and flows.
+Contact at [agnion.ai](https://www.agnion.ai).
+Thanks to Woj and Gero to have some time to investigate interests!
+
+For this repository, I used Claude Code, Nano Banana (see watermark and colors), GPT, Mint/Ubuntu/Debian bash, Firefly, research knowledge.
+Idea inspired from [Nicole Dominikowski](https://www.notebookcheck.com/Anthropic-bietet-kostenlosen-Kurs-fuer-Claude-Code-inklusive-Zertifikat.1295651.0.html) and [Jas Wong](https://www.youtube.com/watch?v=qUQbU7h4RoE).
+Currently, I can also recommend Google Deep Research, Perplexity and a cold beer in the evening.
+
+Adrian Wilke - adrian (insert strange looking email symbol here) agnion.ai

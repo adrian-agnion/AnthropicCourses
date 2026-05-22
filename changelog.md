@@ -54,7 +54,19 @@ To pick your best-fit learning path, check the site 🧠⚡ **[Anthropic Course 
   prompt templates to focus on Clause Code, secondary to explain different (other) learning paths for Claude in general. Focus on the data inside data/learningPaths.json and use the main learning ideas to       
   creete textural data best to be used to create images afterwards, focusing on the Claude Code learning paths.
     - CC started to create 10 prompt files in parallel. That was not expected, I assumed maybe 3 files. Let's check.
+- Used Nano Banana to create some images
+- Reduced file size (Command search using GPT)
 
+```bash
+find . -type f -iname "*.png" -print0 | while IFS= read -r -d '' file; do
+    out="${file%.png}.webp"
+
+    if cwebp -q 95 "$file" -o "$out"; then
+        rm "$file"
+    fi
+done
+```
+- Polished the md files a bit
 
 ## Contact
 

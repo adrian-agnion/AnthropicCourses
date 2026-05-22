@@ -8,7 +8,7 @@ core_concepts: Vertex AI SDK and console, same full API curriculum (prompting, t
 
 ## Image Generation Prompt
 
-Please create a 3D Minion. Its body color is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion has just found Claude inside the Google Cloud Console after clicking through 47 menus. It is overwhelmed but triumphant. Background: deep dark purple #0f032a with faint Google-colored confetti frozen mid-air, suggesting something wonderful just happened.
+Please create a 3D Minion. Color of all Minions is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion has just found Claude inside the Google Cloud Console after clicking through 47 menus. It is happily overwhelmed and triumphant. Background: deep dark purple #0f032a with faint Google-colored confetti frozen mid-air, suggesting something wonderful just happened.
 
 **The Scene:**
 The Minion stands at a floating GCP command center — a curved console desk surrounded by screens and floating service panels. The four Google brand colors (red #EA4335, blue #4285F4, yellow #FBBC05, green #34A853) are scattered throughout as glowing accents and floating orbs. A Google Cloud logo badge is clipped to the Minion's overalls next to its standard buckles.
@@ -31,7 +31,7 @@ A terminal showing: `aiplatform.init(project="minion-ai-prod", location="us-cent
 **The floor around the console:**
 Printouts of Vertex AI documentation form a small nest the Minion has been sitting in. Each page has banana doodles in the margins. A sticky note on the console reads: *"85 lectures. 8 hours. You can do dis."*
 
-**Style:** High-quality 3D Minion in the Illumination Studios style. Google Cloud aesthetic — clean Material Design surfaces against the dark purple background. Google brand colors appear as glowing accents. Lavender skin, eastern blue overalls. Cartoon physics throughout. Dark #0f032a background.
+**Style:** High-quality 3D Minion in the Illumination Studios style. Google Cloud aesthetic — clean Material Design surfaces against the dark purple background. Google brand colors appear as glowing accents. Lavender skin, eastern blue overalls. 3D Cartoon physics throughout. Dark #0f032a background.
 
 **Text overlay:** Two lines of bold clean sans-serif text centered at the bottom over a dark semi-transparent band:
 - Line 1 (small, wide letter-spacing): LEARNING PATH
@@ -42,4 +42,4 @@ Both lines in white (#F0F4F8) with a subtle violet drop-shadow.
 
 **Format:** 1:1 square. Course tile / social media card.
 
-**Mood:** Colorful, slightly lost, fully arrived. The Minion navigated the entire GCP console. Claude was worth it.
+**Mood:** Colorful, happy. The Minion navigated the entire GCP console. Claude was worth it.

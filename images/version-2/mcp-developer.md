@@ -8,7 +8,7 @@ core_concepts: MCP architecture, Python SDK, server + client implementation, too
 
 ## Image Generation Prompt
 
-Please create a 3D Minion. Its body color is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a master plumber-engineer building an MCP server from scratch. It is wearing a hard hat over its goggles and a tool belt loaded with colorful cables and wrenches over its overalls. Background: deep dark purple #170538 with faint technical-blueprint lines.
+Please create a 3D Minion. Color of all Minions is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a master plumber-engineer building an MCP server from scratch. It is wearing a hard hat over its goggles and a tool belt loaded with colorful cables and wrenches over its overalls. Background: deep dark purple #170538 with faint technical-blueprint lines.
 
 **The Workshop:**
 A cozy engineering workshop — workbench covered in tools, components, and one half-eaten banana. The MCP server-in-progress sits at the center of the workbench like an open machine: a box with visible internals, three color-coded module shelves, and colorful pipes running between them. The Minion has its hands inside the machine with the focused expression of someone who absolutely knows what they are doing (mostly).
@@ -38,7 +38,7 @@ Template cards with yellow sticky-note variable placeholders: `{user_query}`, `{
 **On the floor near the Minion's feet:**
 A Claude Code terminal icon and an API client icon connected to the server via color-coded cables. The cables are slightly tangled but connected correctly. A tag on the cable bundle reads: *"MCP Clients that eat from your server."*
 
-**Style:** High-quality 3D Minion in the Illumination Studios style. Workshop atmosphere — warm tool-light overhead. Lavender skin, eastern blue overalls, hard hat, tool belt. The server machine has a warm glow coming from inside. Cartoon physics — cables slightly alive, tools slightly oversized. Dark purple #170538 background.
+**Style:** High-quality 3D Minion in the Illumination Studios style. Workshop atmosphere — warm tool-light overhead. Lavender skin, eastern blue overalls, hard hat, tool belt. The server machine has a warm glow coming from inside. 3D Cartoon physics — cables slightly alive, tools slightly oversized. Dark purple #170538 background.
 
 **Text overlay:** Two lines of bold clean sans-serif text centered at the bottom over a dark semi-transparent band:
 - Line 1 (small, wide letter-spacing): LEARNING PATH

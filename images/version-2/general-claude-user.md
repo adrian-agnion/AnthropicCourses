@@ -8,7 +8,7 @@ core_concepts: 4D Framework (Delegation, Description, Discernment, Diligence), C
 
 ## Image Generation Prompt
 
-Please create a 3D Minion. Its body color is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a Very Serious Business Professional. It is wearing a tiny blazer and clip-on tie directly over its overalls. The overalls are still very visible. Background: deep dark purple #170538 with a faint grid texture suggesting a corporate office.
+Please create a 3D Minion. Color of all Minions is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a Very Serious Business Professional. It is wearing a tiny blazer and clip-on tie directly over its overalls. The overalls are still very visible. Background: deep dark purple #170538 with a faint grid texture suggesting a corporate office.
 
 **The Scene:**
 A Minion-sized executive desk in an empty meeting room. The Minion is the only attendee at what appears to be a very important meeting. A name placard on the desk reads "CHIEF BANANA OFFICER." A laptop is open, a stack of papers sits at the corner (all banana-related), and a coffee mug reads "World's Okayest Knowledge Worker."
@@ -26,7 +26,7 @@ A Word document is open titled *"Q3 Banana Strategy — FINAL_v7_ACTUAL_FINAL.do
 **Integration badges floating like office decorations:**
 Chrome icon, Word icon, Excel icon, PowerPoint icon, Outlook icon — connected to the laptop with string like office party decorations.
 
-**Style:** High-quality 3D Minion in the Illumination Studios style. Warm office lighting. Lavender skin with subsurface scattering, eastern blue overalls with blazer layered on top. The corporate props are all slightly too small or slightly too large — nothing fits quite right but the Minion is committed to the bit. Dark purple #170538 background.
+**Style:** High-quality 3D Minion in the Illumination Studios style. Warm office lighting. Lavender skin with subsurface scattering, eastern blue overalls with blazer layered on top. The corporate props are all slightly too small or slightly too large — nothing fits quite right but the Minion is committed to the bit. 3D Cartoon physics. Dark purple #170538 background.
 
 **Text overlay:** Two lines of bold clean sans-serif text centered at the bottom over a dark semi-transparent band:
 - Line 1 (small, wide letter-spacing): LEARNING PATH

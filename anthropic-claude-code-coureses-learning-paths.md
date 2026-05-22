@@ -28,6 +28,8 @@ Pick the path that matches your role and goal, start at your current level, and 
 
 ## 1. Claude Code: Getting Started ★
 
+![](images/version-2/claude-code-getting-started.webp)
+
 > **Featured · Beginner · ~1.5h required · ~5.6h with all courses**
 
 For developers who want to go from zero to productive with Claude Code in their daily development workflow. Covers the agentic loop, installation across all environments, approval modes, the Explore → Plan → Code → Commit rhythm, and the customization basics that make Claude Code fit your team.
@@ -69,6 +71,8 @@ For developers who want to go from zero to productive with Claude Code in their 
 
 ## 2. Claude Code: Power User ★
 
+![](images/version-2/claude-code-power-user.webp)
+
 > **Featured · Intermediate · ~1.85h required · ~11h with all courses**
 > **Prerequisite:** [Claude Code: Getting Started](#1-claude-code-getting-started-)
 
@@ -102,6 +106,8 @@ For developers already using Claude Code who want to go deeper: build and share 
 
 ## 3. Everyday Claude: For Knowledge Workers
 
+![](images/version-2/general-claude-user.webp)
+
 > **Beginner · ~1.5h required · ~2.85h with all courses**
 
 For professionals who want to use Claude — chat, projects, Cowork, and skills — to be more productive without writing code.
@@ -132,6 +138,8 @@ For professionals who want to use Claude — chat, projects, Cowork, and skills 
 ---
 
 ## 4. Building with the Claude API
+
+![](images/version-2/api-developer.webp)
 
 > **Intermediate · ~8.1h required · ~11.45h with all courses**
 
@@ -165,6 +173,8 @@ For developers building applications, pipelines, or agents directly on the Anthr
 
 ## 5. Building with Claude on Amazon Bedrock
 
+![](images/version-2/api-developer-aws.webp)
+
 > **Intermediate · ~8h required · ~10.35h with all courses**
 
 For developers building on AWS who want to use Claude through Amazon Bedrock.
@@ -195,6 +205,8 @@ For developers building on AWS who want to use Claude through Amazon Bedrock.
 ---
 
 ## 6. Building with Claude on Google Cloud Vertex AI
+
+![](images/version-2/api-developer-gcp.webp)
 
 > **Intermediate · ~8h required · ~10.35h with all courses**
 
@@ -227,6 +239,8 @@ For developers building on Google Cloud who want to use Claude through Vertex AI
 
 ## 7. Building MCP Servers & Clients
 
+![](images/version-2/mcp-developer.webp)
+
 > **Intermediate · ~2.1h required · ~11.7h with all courses**
 
 For developers focused on building and deploying Model Context Protocol servers that connect AI systems to external tools and data. Assumes Python programming experience.
@@ -257,6 +271,8 @@ For developers focused on building and deploying Model Context Protocol servers 
 ---
 
 ## 8. AI for Educators
+
+![](images/version-2/educator.webp)
 
 > **Beginner · ~1h required · ~3.35h with all courses**
 
@@ -295,6 +311,8 @@ For faculty, instructional designers, and educational leaders who want to integr
 
 ## 9. AI Fluency for Students
 
+![](images/version-2/student.webp)
+
 > **Beginner · ~0.5h required · ~2.85h with all courses**
 
 For students in higher education who want to develop responsible AI collaboration skills that enhance academic success, research, and career readiness.
@@ -325,6 +343,8 @@ For students in higher education who want to develop responsible AI collaboratio
 ---
 
 ## 10. AI Fluency for Nonprofit Professionals
+
+![](images/version-2/nonprofit-professional.webp)
 
 > **Beginner · ~0.9h required · ~3.75h with all courses**
 
@@ -357,6 +377,8 @@ For nonprofit staff who want to harness AI to increase organizational impact and
 ---
 
 ## 11. AI Fluency for Small Business Owners
+
+![](images/version-2/small-business.webp)
 
 > **Beginner · ~0.9h required · ~3.75h with all courses**
 

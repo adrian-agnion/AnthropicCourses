@@ -8,7 +8,7 @@ core_concepts: Amazon Bedrock SDK and console, same full API curriculum (auth, p
 
 ## Image Generation Prompt
 
-Please create a 3D Minion. Its body color is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is sitting on top of a literal fluffy white cloud that is clearly labeled "AWS." It did not mean to end up here. Background: deep dark purple #170538 fading to the dark void of an endless cloud layer. The scene is AWS-orange accented, slightly overwhelming, and very vertical.
+Please create a 3D Minion. Color of all Minions is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is sitting on top of a literal fluffy white cloud that is clearly labeled "AWS." It did not mean to end up here. Background: deep dark purple #170538 fading to the dark void of an endless cloud layer. The scene is AWS-orange accented, slightly overwhelming, and very vertical.
 
 **The Cloud Platform:**
 A large, rounded cumulus cloud glowing faintly in AWS orange (#FF9900). The Minion sits cross-legged at the top, laptop balanced on its knees. It looks determined but slightly windswept. A tiny AWS logo badge is clipped to its overalls like a visitor pass.
@@ -33,7 +33,7 @@ The Bedrock console, 12 browser tabs open, one of which is the Bedrock docs and 
 **On the cloud surface next to the Minion:**
 A sign planted in the cloud: *"85 LECTURES · 8 HOURS · AWS ACCREDITATION-LEVEL CONTENT"* — printed very officially, slightly damp from cloud moisture.
 
-**Style:** High-quality 3D Minion in the Illumination Studios style. Cloud setting with dramatic sky lighting. AWS orange accent throughout. Lavender skin, eastern blue overalls, visitor-badge accessory. The cloud is both literal and metaphorical. Cartoon physics — things float that should not float. Dark purple #170538 background.
+**Style:** High-quality 3D Minion in the Illumination Studios style. Cloud setting with dramatic sky lighting. AWS orange accent throughout. Lavender skin, eastern blue overalls, visitor-badge accessory. The cloud is both literal and metaphorical. 3D Cartoon physics — things float that should not float. Dark purple #170538 background.
 
 **Text overlay:** Two lines of bold clean sans-serif text centered at the bottom over a dark semi-transparent band:
 - Line 1 (small, wide letter-spacing): LEARNING PATH

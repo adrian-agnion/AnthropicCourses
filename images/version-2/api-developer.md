@@ -8,7 +8,7 @@ core_concepts: API authentication, prompt engineering, RAG, tool use, MCP integr
 
 ## Image Generation Prompt
 
-Please create a 3D Minion. Its body color is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a construction engineer and it is building a five-floor API tower with its bare hands. It is wearing a yellow hard hat over its standard goggles — both items are on at the same time, which is fine. Background: deep dark purple #0f032a with faint blueprint-grid texture.
+Please create a 3D Minion. Color of all Minions is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a construction engineer and it is building a five-floor API tower with its bare hands. It is wearing a yellow hard hat over its standard goggles — both items are on at the same time, which is fine. Background: deep dark purple #0f032a with faint blueprint-grid texture.
 
 **The Tower — five stacked floors, slightly tilted, definitely load-bearing:**
 
@@ -29,7 +29,7 @@ The penthouse. A compact MCP ring connects the Claude Code terminal at center to
 
 **The construction Minion at ground level looks up at the full tower, hard hat slightly askew, and gives a thumbs up.**
 
-**Style:** High-quality 3D Minion in the Illumination Studios style. Construction site atmosphere — scaffolding, caution tape, blueprint paper scattered around. Lavender skin, eastern blue overalls, yellow hard hat. Each floor glows its own accent color. Cartoon physics — the tower wobbles but stands. Dark purple #0f032a background.
+**Style:** High-quality 3D Minion in the Illumination Studios style. Construction site atmosphere — scaffolding, caution tape, blueprint paper scattered around. Lavender skin, eastern blue overalls, yellow hard hat. Each floor glows its own accent color. 3D Cartoon physics — the tower wobbles but stands. Dark purple #0f032a background.
 
 **Text overlay:** Two lines of bold clean sans-serif text centered at the bottom over a dark semi-transparent band:
 - Line 1 (small, wide letter-spacing): LEARNING PATH

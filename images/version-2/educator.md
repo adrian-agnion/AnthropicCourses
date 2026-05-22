@@ -8,7 +8,7 @@ core_concepts: AI literacy, 4D Framework for teaching, course design with AI, AI
 
 ## Image Generation Prompt
 
-Please create a 3D Minion. Its body color is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a Distinguished Professor of Applied Banana Sciences and it has opinions about AI in education. It is wearing tiny round half-moon glasses perched on its goggles and a small academic gown draped over its overalls. Background: deep dark purple #170538 suggesting a classroom at night, lit from the front by the warm glow of a blackboard.
+Please create a 3D Minion. Color of all Minions is lavender (#b985e2), and its overalls are eastern blue (#35a1bd). This Minion is a Distinguished Professor of Applied Banana Sciences and it has opinions about AI in education. It is wearing tiny round half-moon glasses perched on its goggles and a small academic gown draped over its overalls. Background: deep dark purple #170538 suggesting a classroom at night, lit from the front by the warm glow of a blackboard.
 
 **The Classroom:**
 A classic lecture-hall blackboard fills the back wall. The professor Minion stands before it with chalk in hand — a piece of banana-yellow chalk. The board is covered in extremely detailed, academically rigorous notes about AI for educators, all written in perfect cursive. Every section also has a small banana doodle next to it because the Minion cannot help itself.
@@ -35,7 +35,7 @@ Right section: A Claude AI interface sketch labeled *"Demo for class"* with a sa
 
 The sleeping Minion's hand shoots up instinctively, still asleep.
 
-**Style:** High-quality 3D Minion in the Illumination Studios style. Warm chalkboard glow against dark purple background. Academic props scaled to Minion size. Lavender skin, eastern blue overalls, academic gown, half-moon glasses on top of goggles. Cartoon physics throughout. Dark purple #170538 background.
+**Style:** High-quality 3D Minion in the Illumination Studios style. Warm chalkboard glow against dark purple background. Academic props scaled to Minion size. Lavender skin, eastern blue overalls, academic gown, half-moon glasses on top of goggles. 3D Cartoon physics throughout. Dark purple #170538 background.
 
 **Text overlay:** Two lines of bold clean sans-serif text centered at the bottom over a dark semi-transparent band:
 - Line 1 (small, wide letter-spacing): LEARNING PATH
