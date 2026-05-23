@@ -7,6 +7,8 @@ This repository contains two main contents:
 - **Learning paths** (make a quick check if the topics fit your interests and start understanding that AI stuff)  
   Recommendations on which course to have a look based on your interests.
 
+If you would like to send a word or feel overwhelmed, use this: [LinkedIn post](https://www.linkedin.com/posts/adrianwilke_hey-i-wanted-to-simplify-learning-ai-for-share-7463741428481802241-vcqZ)
+
 
 ## Learning Paths: Quick Finder
 
