@@ -113,6 +113,8 @@ To pick your best-fit learning path, check the site 🧠⚡ **[Anthropic Course 
   [https://www.youtube.com/@claude/playlists](https://www.youtube.com/@claude/playlists)
 - **How the creator of Claude Code uses it**  
   [x.com/bcherny](https://x.com/bcherny/status/2007179832300581177), [BorisCherny.com](https://borischerny.com/about/)
+- **Mastering Claude Code in 30 Minutes**  
+  [YouTube video](https://www.youtube.com/watch?v=B_KAEqiC-0Q)
 
 
 ## About
