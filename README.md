@@ -111,6 +111,8 @@ To pick your best-fit learning path, check the site 🧠⚡ **[Anthropic Course 
   [https://www.youtube.com/@anthropic-ai/playlists](https://www.youtube.com/@anthropic-ai/playlists)
 - **Claude on YouTube**  
   [https://www.youtube.com/@claude/playlists](https://www.youtube.com/@claude/playlists)
+- **How the creator of Claude Code uses it**  
+  [x.com/bcherny](https://x.com/bcherny/status/2007179832300581177), [BorisCherny.com](https://borischerny.com/about/)
 
 
 ## About
